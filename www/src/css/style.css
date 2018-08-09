@@ -1,0 +1,357 @@
+@font-face {
+	font-family: Montserrat;
+	src: url(../fonts/Montserrat-Medium.otf);
+}
+@font-face {
+	font-family: MontserratItelic;
+	src: url(../fonts/Montserrat-MediumItalic.otf);
+}
+@font-face {
+	font-family: MontserratBlack;
+	src: url(../fonts/Montserrat-Black.otf);
+}
+@font-face {
+	font-family: MontserratLight;
+	src: url(../fonts/Montserrat-Light.otf);
+}
+@font-face {
+	font-family: MontserratSemiBold;
+	src: url(../fonts/Montserrat-SemiBold.otf);
+}
+@font-face {
+	font-family: Zagolovok;
+	src: url(../fonts/Zagolovok.ttf);
+}
+@font-face {
+	font-family: Bitter;
+	src: url(../fonts/Bitter-Bold.otf);
+}
+@font-face {
+	font-family: BitterRegular;
+	src: url(../fonts/Bitter-Regular.otf);
+}
+@font-face {
+	font-family: BitterItalic;
+	src: url(../fonts/Bitter-Italic.otf);
+}
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	font-family: Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	color: white;
+	background:#212121;
+	background-size: cover;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+a {
+	text-decoration: none;
+	color: #de6551;
+	outline: none;
+}
+/*cross menu*/
+.nav-toggle {
+		position: absolute;
+    display: inline-block;
+    z-index: 1000;
+    width: 40px;
+    height: 30px;
+    top: 45px;
+    right: 60px;
+    cursor: pointer;
+	}
+	.nav-toggle span {
+		position: absolute;
+		left: 0;
+		top: 10px;
+	}
+	.nav-toggle span, .nav-toggle span:before, .nav-toggle span:after {
+		cursor: pointer;
+    border-radius: 1px;
+    height: 7px;
+    width: 50px;
+    background: white;
+    position: absolute;
+    display: block;
+    content: '';
+	}
+	.nav-toggle span:before {
+		top: -10px;
+	}
+	.nav-toggle span:after {
+		bottom: -10px;
+	}
+	.nav-toggle span, .nav-toggle span:before, .nav-toggle span:after {
+		transition: all 300ms ease-in-out;
+	}
+	.nav-toggle.active span {
+		background-color: transparent;
+	}
+	.nav-toggle.active span:before, .nav-toggle.active span:after {
+		top: 0;
+	}
+	.nav-toggle.active span:before {
+		transform: rotate(45deg);
+	}
+	.nav-toggle.active span:after {
+		transform: rotate(-45deg);
+	}
+/*cross menu end*/
+/*menu*/
+header{
+	display:none;
+	padding:0px 0px 0px 10%;
+}
+.menu{
+	width:80%;
+	height:100%;
+	background-color:black;
+	position:absolute;
+	display:block;
+	top:0px;
+	right:0px;
+	z-index:999;
+	opacity: 1;
+    visibility: visible;
+    -ms-animation-name: fadeInRight;
+    -moz-animation-name: fadeInRight;
+    -op-animation-name: fadeInRight;
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    -ms-animation-duration: 300ms;
+    -moz-animation-duration: 300ms;
+    -op-animation-duration: 300ms;
+    -webkit-animation-duration: 300ms;
+    animation-duration: 300ms;
+    -ms-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -op-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -ms-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -op-animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;	
+
+}
+
+.menuout{
+	width:80%;
+	height:100%;
+	background-color:black;
+	position:absolute;
+	display:block;
+	top:0px;
+	right:0px;
+	z-index:999;
+    -ms-animation-name: fadeOutRight;
+    -moz-animation-name: fadeOutRight;
+    -op-animation-name: fadeOutRight;
+    -webkit-animation-name: fadeOutRight;
+    animation-name: fadeOutRight;
+    -ms-animation-duration: 300ms;
+    -moz-animation-duration: 300ms;
+    -op-animation-duration: 300ms;
+    -webkit-animation-duration: 300ms;
+    animation-duration: 300ms;
+    -ms-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -op-animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -ms-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -op-animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;	
+	
+}
+.div_menu{
+	width:30%;
+	height:100%;
+	float:left;
+}
+.div_navigation1{
+	width:80%;
+	height:30%;
+	margin:50% auto;
+color:white;
+text-decoration:none;	
+}
+.ul_navigation1{
+	
+	margin-left: 0;
+    padding-left: 0; 
+}
+.li_navigation1{
+	list-style-type: none;
+}
+/*end menu*/
+/*content*/
+#content{
+	width:100%;
+	float:left;	
+}
+#container{
+	width:1600px;
+	max-width: 100%;
+	position:relative;
+	z-index:1;
+	background:yellow;
+	margin:auto auto;
+	
+	
+}
+
+.page_title{
+	padding:20px 40%;
+}
+.page_description{
+	width:100%;
+	float:left;
+	background:red;
+	max-height:700px;
+	padding:50px 0px;
+	
+}
+.page_description_box{
+	width:50%;
+	height:500px;
+	background:gray;
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+	float:left;
+}
+.page_description_text{
+	text-align:center;
+	margin-top:15%;
+}
+.features{
+	width:100%;
+	float:left;
+	
+	max-height:300px;
+	padding:50px 0px;
+}
+.features_box{
+	width:20%;
+	float:left;
+	/* margin-left:5%; */
+	margin:0px 2.5% 0px 2.5%;
+}
+
+.features_box img{
+	width:100%;
+}
+
+.parameters{
+	width:100%;
+	float:left;
+	background-image:url(/img/new_modal_bg.jpg);
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+	min-height:300px;
+	padding:50px 0px;
+}
+.name_of_product{
+width:30%;
+min-height:500px;
+
+float:left;
+margin:0px 0px 0px 30px;
+	
+}
+.product_image{
+	width:25%;
+height:500px;
+
+float:left;
+margin:0px 0px 0px 30px;
+}
+.product_image img{
+	width:100%;
+}
+.product_characteristics{
+		width:37%;
+height:500px;
+background:purple;
+float:left;
+margin:0px 0px 0px 30px;
+}
+.product_characteristics_box{
+	width:30%;
+	height:100px;
+	float:left;
+	background:gray;
+	padding:0px;
+margin:5px 1.6%;
+}
+.product_characteristics_box h2,p{
+	display:inline-block;
+	width:100%;
+	margin:0px;
+	text-align:right;
+	padding:0px 5px;
+}
+.product{
+	width:100%;
+	height:70px;
+	background:#303030;
+	border: 1px solid white;
+	margin:5px 0px;
+	float:left;
+	padding:20px;
+}
+.product .product_name{
+	width:70%;
+	height:100%;
+	float:left;
+}
+.product .product_price{
+	width:30%;
+	height:100%;
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*end content*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

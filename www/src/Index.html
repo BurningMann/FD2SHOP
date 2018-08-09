@@ -14,24 +14,93 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   <link href="css/styles.css" rel="stylesheet">
+   <link rel="shortcut icon" href="img/razermetro.png">
+	<link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
   <title>Example</title>	
 </head>
 <body>
- <input onclick="time1()" type="button" value="one"></input>
- <input onclick="time2()" type="button" value="two"></input>
+	<div class="nav-toggle">
+		<span></span>
+	</div>
+	<header id="menu"></header>
+	<content id="content">
+	<!-- <div style=""onclick="render()">gogogogo</div> -->
+	<script>
+	function render(){
+		switchToState( { pagename:'progaming' } );
+	}
+	function switchToState(newState) {
+		var stateStr=newState.pagename;
+		location.hash=stateStr;
+	}
+	</script>
+		<!-- <div id="container">
+			<div class="page_title">
+				PROGAMING СЕРИЯ
+			</div>
+			<div class="page_description">	
+				<div class="page_description_box" style="background-image:url('/img/Progaming_Hero.jpg');"></div>
+				<div class="page_description_box">
+					<p class="page_description_text">PROGAMING - специальная серия игровых компьютеров DigitalRazor. Это оптимальный баланс производительности и доступной цены. Серия создана для поклонников современных компьютерных игр и начинающих киберспортсменов, для тех кто не может представить жизнь вне игры.</p>
+				</div>
+			</div>
+			<div class="page_title">
+				КЛЮЧЕВЫЕ ОСОБЕННОСТИ СЕРИИ
+			</div>
+			<div class="features"></div>
+			<div class="parameters">
+				<div class="name_of_product"></div>
+				<div class="product_image"></div>
+				<div class="product_characteristics"></div>
+			</div>
+		</div> -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</content>
+	<footer></footer>
+
  
  
   	
+	
+	
+	
+	
 	<script src="js/jquery-3.2.1.min.js"></script> 
-	<script src="js/require.js"></script>
-	<script>
-	
-	
-	
-	
-	
-	</script>
-	<script src="js/scripts.js"></script> 
+<!-- 	<script src="js/require.js"></script>-->
+<!-- 	<script src="js/scripts.js"></script> -->
+	<script src="js/script.js"></script> 
 	
 </body>
 </html>
