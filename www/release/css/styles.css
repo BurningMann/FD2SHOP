@@ -1,0 +1,75 @@
+.strelka{
+width:500px;
+height:500px;
+position:absolute;
+top:0px;
+left:0px;
+border-radius:100%;
+z-index:4;
+}
+.strelkaSec{
+width: 2px;
+height: 190px;
+background-color: black;
+margin-left: 248px;
+position: absolute;
+margin-top: 70px;
+}
+
+.circleMin{
+width:500px;
+height:500px;
+position:absolute;
+top:0px;
+left:0px;
+border-radius:100%;
+z-index:3;
+}
+.strelkaMin{
+width: 4px;
+height: 190px;
+background-color: green;
+margin-left: 248px;
+position: absolute;
+margin-top: 70px;
+	
+}
+.circleHours{
+width:500px;
+height:500px;
+position:absolute;
+top:0px;
+left:0px;
+border-radius:100%;
+z-index:2;
+
+}
+.strelkaHours{
+width: 8px;
+height: 140px;
+background-color: gray;
+margin-left: 246px;
+position: absolute;
+margin-top: 120px;
+}
+.clock{
+width:500px;
+height:500px;
+position:relative;
+border:1px solid black;
+border-radius:100%;
+background-repeat: no-repeat;    
+background-image: url(https://image.ibb.co/kgyAoo/clock_p0.png);
+background-size: cover;
+background-position: center center;
+}
+.timestring{
+font-weight: bold;
+font-size: 40px;
+margin: 105px 0px 0px 180px;
+}
+.hosts{
+float:left;
+position:relative;
+ 
+}

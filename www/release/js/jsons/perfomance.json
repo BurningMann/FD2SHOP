@@ -1,0 +1,277 @@
+
+{
+	"features": [{
+		"image": "https://digital-razor.ru/dev/perfomance/img/cpu1.png"
+	},{
+		"image": "https://digital-razor.ru/dev/perfomance/img/memory1.png"
+	},{
+		"image": "https://digital-razor.ru/dev/perfomance/img/gpu1.png"
+	},{
+		"image": "https://digital-razor.ru/dev/perfomance/img/warranty1.png"
+	}],
+	"goods":[{
+		"name":"Intel® i5K + GTX 1060 6GB",
+		"price":"105 000"
+	},{
+		"name":"Intel® i5K + GTX 1070 8GB",
+		"price":"125 000"
+	},{
+		"name":"AMD Ryzen R7 + GTX 1070 8gb",
+		"price":"126 000"
+	},{
+		"name":"AMD Ryzen R7 + GTX 1080 8gb",
+		"price":"146 000"
+	},{
+		"name":"Intel® i7K + GTX 1080 8gb",
+		"price":"157 000"
+	},{
+		"name":"Intel® i7K + GTX 1080 Ti 11gb",
+		"price":"205 000"
+		
+	}],
+	"Intel® i5K + GTX 1060 6GB":[{
+		"image":"https://digital-razor.ru/game_computers/smart-configurator/img_per/nzxt340-min.png"
+	},{
+		"CPU":[{
+			"number":"i5K",
+			"name1":"6-ти ядерный",
+			"name2":"Intel® Core™"
+		}]
+		},{
+		"videoCard":[{
+			"number":"1060",
+			"name1":"6GB",
+			"name2":"geforce GTX"
+		}]
+		},{
+		"RAM":[{
+			"number":"16GB",
+			"name1":"DDR4",
+			"name2":"2800 MHz"
+		}]
+		},{
+		"SDD":[{
+			"number":"240",
+			"name1":"GB",
+			"name2":"SSD-накопитель"
+		}]
+		},{
+		"HDD":[{
+			"number":"1TB",
+			"name1":"HDD",
+			"name2":"накопитель"
+		}]
+		},{
+		"guarantee":[{
+			"number":"36",
+			"name1":"месяцев",
+			"name2":"гарантии"
+		}]
+	}],
+	"Intel® i5K + GTX 1070 8GB":[{
+		"image":"https://digital-razor.ru/game_computers/smart-configurator/img_per/460x-min.png"
+	},{
+		"CPU":[{
+			"number":"i5K",
+			"name1":"6-ти ядерный",
+			"name2":"Intel® Core™"
+		}]
+		},{
+		"videoCard":[{
+			"number":"1070",
+			"name1":"8GB",
+			"name2":"geforce GTX"
+		}]
+		},{
+		"RAM":[{
+			"number":"16GB",
+			"name1":"DDR4",
+			"name2":"2800 MHz"
+		}]
+		},{
+		"SDD":[{
+			"number":"240",
+			"name1":"GB",
+			"name2":"SSD-накопитель"
+		}]
+		},{
+		"HDD":[{
+			"number":"1TB",
+			"name1":"HDD",
+			"name2":"накопитель"
+		}]
+		},{
+		"guarantee":[{
+			"number":"36",
+			"name1":"месяцев",
+			"name2":"гарантии"
+		}]
+	}],
+	"AMD Ryzen R7 + GTX 1070 8gb":[{
+		"image":"https://digital-razor.ru/game_computers/smart-configurator/img_per/CM500-min.png"
+	},{
+		"CPU":[{
+			"number":"R7",
+			"name1":"8-ми ядерный",
+			"name2":"AMD Ryzen"
+		}]
+		},{
+		"videoCard":[{
+			"number":"1070",
+			"name1":"8GB",
+			"name2":"geforce GTX"
+		}]
+		},{
+		"RAM":[{
+			"number":"16GB",
+			"name1":"DDR4",
+			"name2":"2800 MHz"
+		}]
+		},{
+		"SDD":[{
+			"number":"240",
+			"name1":"GB",
+			"name2":"SSD-накопитель"
+		}]
+		},{
+		"HDD":[{
+			"number":"1TB",
+			"name1":"HDD",
+			"name2":"накопитель"
+		}]
+		},{
+		"guarantee":[{
+			"number":"36",
+			"name1":"месяцев",
+			"name2":"гарантии"
+		}]
+	}],
+	
+	"AMD Ryzen R7 + GTX 1080 8gb":[{
+		"image":"https://digital-razor.ru/game_computers/smart-configurator/img_per/NZXT700-min.png"
+	},{
+		"CPU":[{
+			"number":"R7",
+			"name1":"8-ти ядерный",
+			"name2":"AMD Ryzen"
+		}]
+		},{
+		"videoCard":[{
+			"number":"1080",
+			"name1":"8GB",
+			"name2":"geforce GTX"
+		}]
+		},{
+		"RAM":[{
+			"number":"16GB",
+			"name1":"DDR4",
+			"name2":"2800 MHz"
+		}]
+		},{
+		"SDD":[{
+			"number":"240",
+			"name1":"GB",
+			"name2":"SSD-накопитель"
+		}]
+		},{
+		"HDD":[{
+			"number":"2TB",
+			"name1":"HDD",
+			"name2":"накопитель"
+		}]
+		},{
+		"guarantee":[{
+			"number":"36",
+			"name1":"месяцев",
+			"name2":"гарантии"
+		}]
+	}],
+	
+	"Intel® i7K + GTX 1080 8gb":[{
+		"image":"https://digital-razor.ru/game_computers/smart-configurator/img_per/570x-min.png"
+	},{
+		"CPU":[{
+			"number":"i7K",
+			"name1":"6-ти ядерный",
+			"name2":"Intel® Core™"
+		}]
+		},{
+		"videoCard":[{
+			"number":"1080",
+			"name1":"8GB",
+			"name2":"geforce GTX"
+		}]
+		},{
+		"RAM":[{
+			"number":"16GB",
+			"name1":"DDR4",
+			"name2":"2800 MHz"
+		}]
+		},{
+		"SDD":[{
+			"number":"500",
+			"name1":"GB",
+			"name2":"SSD-накопитель"
+		}]
+		},{
+		"HDD":[{
+			"number":"2TB",
+			"name1":"HDD",
+			"name2":"накопитель"
+		}]
+		},{
+		"guarantee":[{
+			"number":"36",
+			"name1":"месяцев",
+			"name2":"гарантии"
+		}]
+	}],
+	
+	
+	"Intel® i7K + GTX 1080 Ti 11gb":[{
+		"image":"https://digital-razor.ru/game_computers/smart-configurator/img_per/maker5t-min.png"
+	},{
+		"CPU":[{
+			"number":"i7K",
+			"name1":"6-ти ядерный",
+			"name2":"Intel® Core™"
+		}]
+		},{
+		"videoCard":[{
+			"number":"1080",
+			"name1":"11GB Ti",
+			"name2":"geforce GTX"
+		}]
+		},{
+		"RAM":[{
+			"number":"32GB",
+			"name1":"DDR4",
+			"name2":"3000 MHz"
+		}]
+		},{
+		"M2":[{
+			"number":"250",
+			"name1":"GB",
+			"name2":"M2-накопитель"
+		}]
+		},{
+		"SDD":[{
+			"number":"500",
+			"name1":"GB",
+			"name2":"SSD-накопитель"
+		}]
+		},{
+		"HDD":[{
+			"number":"2TB",
+			"name1":"HDD",
+			"name2":"накопитель"
+		}]
+		},{
+		"guarantee":[{
+			"number":"36",
+			"name1":"месяцев",
+			"name2":"гарантии"
+		}]
+	}]
+	
+	}

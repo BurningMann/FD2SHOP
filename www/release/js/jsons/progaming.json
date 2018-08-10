@@ -1,0 +1,281 @@
+
+{
+	"features": [{
+		"image": "https://digital-razor.ru/game_computers/pro-gaming/images/img/cpu0.png"
+	},{
+		"image": "https://digital-razor.ru/game_computers/pro-gaming/images/img/memory0.png"
+	},{
+		"image": "https://digital-razor.ru/game_computers/pro-gaming/images/img/gpu0.png"
+	},{
+		"image": "https://digital-razor.ru/game_computers/pro-gaming/images/img/warranty0.png"
+	}],
+	"goods":[{
+		"name":"AMD Ryzen R3 + GTX 1050 2GB",
+		"price":"50 000"
+	},{
+		"name":"Intel® i3 + GTX 1050 Ti 4GB",
+		"price":"60 000"
+	},{
+		"name":"Intel® i3 + GTX 1060 3gb",
+		"price":"65 000"
+	},{
+		"name":"AMD Ryzen R5 + GTX 1060 3gb",
+		"price":"80 000"
+	},{
+		"name":"Intel® i5 + GTX 1060 6gb",
+		"price":"90 000"
+	},{
+		"name":"Intel® i7 + GTX 1070 8gb",
+		"price":"115 000"
+	}],
+	"AMD Ryzen R3 + GTX 1050 2GB":[{
+		"image":"https://digital-razor.ru/game_computers/smart-configurator/img_prog/300CM-min.png"
+	},{
+		"CPU":[{
+			"number":"R3",
+			"name1":"4-х ядерный",
+			"name2":"AMD RYZEN"
+		}]
+		},{
+		"videoCard":[{
+			"number":"1050",
+			"name1":"2GB",
+			"name2":"geforce GTX"
+		}]
+		},{
+		"RAM":[{
+			"number":"8GB",
+			"name1":"DDR4",
+			"name2":"2400 MHz"
+		}]
+		},{
+		"SDD":[{}]
+		},{
+		"HDD":[{
+			"number":"1TB",
+			"name1":"HDD",
+			"name2":"накопитель"
+		}]
+		},{
+		"guarantee":[{
+			"number":"12",
+			"name1":"месяцев",
+			"name2":"гарантии"
+		}]
+	}],
+	"Intel® i3 + GTX 1050 Ti 4GB":[{
+		"image":"https://digital-razor.ru/game_computers/pro-gaming/smart-configurator/ML600_2.png"
+	},{
+		"CPU":[{
+			"number":"i3",
+			"name1":"4-х ядерный",
+			"name2":"Intel® Core™"
+		}]
+		},{
+		"videoCard":[{
+			"number":"1050",
+			"name1":"4GB Ti",
+			"name2":"geforce GTX"
+		}]
+		},{
+		"RAM":[{
+			"number":"8GB",
+			"name1":"DDR4",
+			"name2":"2400 MHz"
+		}]
+		},{
+		"SDD":[{
+			"number":"120",
+			"name1":"GB",
+			"name2":"SSD-накопитель"
+		}]
+		},{
+		"HDD":[{
+			"number":"1TB",
+			"name1":"HDD",
+			"name2":"накопитель"
+		}]
+		},{
+		"guarantee":[{
+			"number":"12",
+			"name1":"месяцев",
+			"name2":"гарантии"
+		}]
+	}],
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	"Intel® i3 + GTX 1060 3gb":[{
+		"image":"https://digital-razor.ru/img/CM_DR.png"
+	},{
+		"CPU":[{
+			"number":"i3",
+			"name1":"4-х ядерный",
+			"name2":"Intel® Core™"
+		}]
+		},{
+		"videoCard":[{
+			"number":"1060",
+			"name1":"3GB",
+			"name2":"geforce GTX"
+		}]
+		},{
+		"RAM":[{
+			"number":"8GB",
+			"name1":"DDR4",
+			"name2":"2400 MHz"
+		}]
+		},{
+		"SDD":[{
+			"number":"120",
+			"name1":"GB",
+			"name2":"SSD-накопитель"
+		}]
+		},{
+		"HDD":[{
+			"number":"1TB",
+			"name1":"HDD",
+			"name2":"накопитель"
+		}]
+		},{
+		"guarantee":[{
+			"number":"12",
+			"name1":"месяцев",
+			"name2":"гарантии"
+		}]
+	}],
+	
+	"AMD Ryzen R5 + GTX 1060 3gb":[{
+		"image":"https://digital-razor.ru/game_computers/pro-gaming/smart-configurator/RGB_LITE_5.png"
+	},{
+		"CPU":[{
+			"number":"R5",
+			"name1":"6-ти ядерный",
+			"name2":"AMD Ryzen"
+		}]
+		},{
+		"videoCard":[{
+			"number":"1060",
+			"name1":"3GB",
+			"name2":"geforce GTX"
+		}]
+		},{
+		"RAM":[{
+			"number":"16GB",
+			"name1":"DDR4",
+			"name2":"2800 MHz"
+		}]
+		},{
+		"SDD":[{
+			"number":"120",
+			"name1":"GB",
+			"name2":"SSD-накопитель"
+		}]
+		},{
+		"HDD":[{
+			"number":"1TB",
+			"name1":"HDD",
+			"name2":"накопитель"
+		}]
+		},{
+		"guarantee":[{
+			"number":"12",
+			"name1":"месяцев",
+			"name2":"гарантии"
+		}]
+	}],
+	
+	"Intel® i5 + GTX 1060 6gb":[{
+		"image":"https://digital-razor.ru/game_computers/pro-gaming/smart-configurator/Q300_P.png"
+	},{
+		"CPU":[{
+			"number":"i5",
+			"name1":"6-ти ядерный",
+			"name2":"Intel® Core™"
+		}]
+		},{
+		"videoCard":[{
+			"number":"1060",
+			"name1":"6GB",
+			"name2":"geforce GTX"
+		}]
+		},{
+		"RAM":[{
+			"number":"16GB",
+			"name1":"DDR4",
+			"name2":"2800 MHz"
+		}]
+		},{
+		"SDD":[{
+			"number":"120",
+			"name1":"GB",
+			"name2":"SSD-накопитель"
+		}]
+		},{
+		"HDD":[{
+			"number":"1TB",
+			"name1":"HDD",
+			"name2":"накопитель"
+		}]
+		},{
+		"guarantee":[{
+			"number":"12",
+			"name1":"месяцев",
+			"name2":"гарантии"
+		}]
+	}],
+	
+	
+	"Intel® i7 + GTX 1070 8gb":[{
+		"image":"https://digital-razor.ru/game_computers/smart-configurator/img_prog/CMPRORGB-min.png"
+	},{
+		"CPU":[{
+			"number":"i7",
+			"name1":"6-ти ядерный",
+			"name2":"Intel® Core™"
+		}]
+		},{
+		"videoCard":[{
+			"number":"1070",
+			"name1":"8GB",
+			"name2":"geforce GTX"
+		}]
+		},{
+		"RAM":[{
+			"number":"16GB",
+			"name1":"DDR4",
+			"name2":"2800 MHz"
+		}]
+		},{
+		"SDD":[{
+			"number":"240",
+			"name1":"GB",
+			"name2":"SSD-накопитель"
+		}]
+		},{
+		"HDD":[{
+			"number":"1TB",
+			"name1":"HDD",
+			"name2":"накопитель"
+		}]
+		},{
+		"guarantee":[{
+			"number":"12",
+			"name1":"месяцев",
+			"name2":"гарантии"
+		}]
+	}]
+	}
