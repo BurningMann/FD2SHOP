@@ -13,22 +13,26 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  <link href="css/styles.css" rel="stylesheet">
+<!--   <link href="css/styles.css" rel="stylesheet"> -->
    <link rel="shortcut icon" href="img/razermetro.png">
 	<link rel="stylesheet" type="text/css" href="css/animate.css" />
+	<link href="css/preloader.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
   <title>Example</title>	
 </head>
 <body>
+	<!-- <div id="preloader">
+		<div id="loader"></div>
+	</div> -->
 	<div class="nav-toggle">
 		<span></span>
 	</div>
 	<header id="menu"></header>
 	<content id="content">
-	<!-- <div style=""onclick="render()">gogogogo</div> -->
+	
 	<script>
-	function render(){
-		switchToState( { pagename:'progaming' } );
+	function render(hashs){
+		switchToState( { pagename:hashs } );
 	}
 	function switchToState(newState) {
 		var stateStr=newState.pagename;
@@ -96,7 +100,14 @@
 	
 	
 	
-	
+<!-- 	<script>
+	 $(window).on('load', function () {
+	   $preloader = $('#preloader'),
+	     $loader = $preloader.find('#loader');
+	   $loader.fadeOut();
+	   $preloader.delay(350).fadeOut('slow');
+	 });
+	</script> -->
 	<script src="js/jquery-3.2.1.min.js"></script> 
 <!-- 	<script src="js/require.js"></script>-->
 <!-- 	<script src="js/scripts.js"></script> -->

@@ -1,5 +1,7 @@
 'use strict';
 $(document).ready(function() {
+	switchToStateFromURLHash()
+	});
 	$('.nav-toggle').click(function() {
 		$(this).toggleClass('active');
 		$("#menu").toggleClass('menu');
@@ -15,8 +17,13 @@ $(document).ready(function() {
 	function switchToStateFromURLHash() {
 		var URLHash=window.location.hash;
 		var stateStr=URLHash.substr(1);
-		if(stateStr=="progaming"){
-			$.get("/js/jsons/progaming.json",
+		if(stateStr==""){
+			$("#container").remove()
+		}
+		if(stateStr){
+			
+			$("#container").remove()
+			$.get("/js/jsons/"+stateStr+".json",
 			function(obj){
 				Progaming(obj)
 			}).fail(
@@ -25,26 +32,20 @@ $(document).ready(function() {
 			});
 		}
 	}
-	function switchToState(newState) {
-		var stateStr=newState.pagename;
-		location.hash=stateStr;
-	}
-	function render(){
-		switchToState( { pagename:'progaming' } );
-	}
+
 	
 			 let div = $(`<div class="div_menu">
 						<div class="div_navigation1">
 							<h1 class="h2_navigation1">Игровые компьютеры</h1>	
 							<ul class="ul_navigation1">
-							<li class="li_navigation1"  onclick="render()" >PROGAMING СЕРИЯ</li>
-							<li class="li_navigation1">PERFORMANCE СЕРИЯ</li>
-							<li class="li_navigation1">PERFORMANCE X</li>
+							<li class="li_navigation1"  onclick="render('progaming')" >PROGAMING СЕРИЯ</li>
+							<li class="li_navigation1" onclick="render('perfomance')">PERFORMANCE СЕРИЯ</li>
+							<li class="li_navigation1" onclick="render('perfomanceX')">PERFORMANCE X</li>
 							<li class="li_navigation1">ИГРОВОЙ МОНОБЛОК</li>
 							<li class="li_navigation1">POWERED BY AMD</li>
 							</ul>
 						</div>   
-					</div>
+					</div>perfomanceX
 					<div class="div_menu">
 						<div class="div_navigation1">
 							<h1 class="h2_navigation1">Игровое пространство</h1>	
@@ -88,11 +89,44 @@ $(document).ready(function() {
 			let blockProducts=$(`<div class="product"><div class="product_name">${obj.goods[x].name}</div><div class="product_price">${obj.goods[x].price}</div></div>`);
 			$(".name_of_product").append(blockProducts);
 		}
+		
 		let kkk =$(".product")[0];
 		$(kkk).addClass("active_product")
 		let texts =$(".active_product")[0].childNodes[0]
 		fill(obj[$(texts).text()])
+		
+		for(let i=0;i<$(".product").length;i++){
+			$(".product")[i].onclick = function(){
+				
+				if(!this.classList.contains('active_product')){
+					$(".product_image").children()[0].remove()
+					console.log($(".product_characteristics").children().length)
+					let deleted_characteristics =$(".product_characteristics").children().length
+					
+					for(let y=0;y<deleted_characteristics;y++){
+		
+						$(".product_characteristics").children()[0].remove()
+					} 
+					
+					
+					
+					
+					
+				let deleted =$(".active_product")[0]
+				 $(deleted).removeClass("active_product")
+				 $(this).addClass('active_product');
+				let texts =$(".active_product")[0].childNodes[0]
+				
+				return fill(obj[$(texts).text()])
+			};
+			}			
+		} 
+		
+		
+	
+		
 			function fill(productName){	
+			
 				let accessories=[]
 				for(let i=0; i<productName.length;i++){
 					let keys = Object.keys(productName[i]);
@@ -241,6 +275,6 @@ $(document).ready(function() {
 
 
 	
-});
+
 
 
