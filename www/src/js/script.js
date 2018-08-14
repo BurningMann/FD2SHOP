@@ -73,6 +73,7 @@ function Progaming(obj) {
 				<div class="product_image"></div>
 				<div class="product_characteristics"></div>
 			</div>
+			<div class="about"><div class="about_box">Подробнее</div></div>
 		</div>
 		`)
 	$("#content").append(Progaming_page);
@@ -130,5 +131,13 @@ function Progaming(obj) {
 				}
 			}
 		}
+	}
+	
+	$(".about_box").click(function(){
+		return newEra()
+
+	})
+	function newEra(){
+		console.log("ghgh")
 	}
 }

@@ -426,8 +426,33 @@ overflow: hidden;
 
 
 
+/*new*/
+.about{
+	width:100%;
+	float:left;
+	
+}
+.about_box{
+	width:15%;
+	padding:20px 0px;
+	text-align:center;
+	background:red;
+	float:right;
+	position:relative;
+	top:-67px;
+	font-family: Montserrat;
+	font-size:18px;
+	right:20px;
+	cursor:pointer;
+}
 
 
+
+
+
+
+
+/*end_new*/
 
 
 
