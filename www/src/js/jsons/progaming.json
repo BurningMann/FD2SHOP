@@ -1,13 +1,13 @@
 
 {
 	"features": [{
-		"image": "https://digital-razor.ru/game_computers/pro-gaming/images/img/cpu0.png"
+		"image": "./img/Progaming/cpu0.png"
 	},{
-		"image": "https://digital-razor.ru/game_computers/pro-gaming/images/img/memory0.png"
+		"image": "./img/Progaming/memory0.png"
 	},{
-		"image": "https://digital-razor.ru/game_computers/pro-gaming/images/img/gpu0.png"
+		"image": "./img/Progaming/gpu0.png"
 	},{
-		"image": "https://digital-razor.ru/game_computers/pro-gaming/images/img/warranty0.png"
+		"image": "./img/Progaming/warranty0.png"
 	}],
 	"goods":[{
 		"name":"AMD Ryzen R3 + GTX 1050 2GB",
@@ -29,7 +29,7 @@
 		"price":"115 000"
 	}],
 	"AMD Ryzen R3 + GTX 1050 2GB":[{
-		"image":"https://digital-razor.ru/game_computers/smart-configurator/img_prog/300CM-min.png"
+		"image":"./img/Progaming/300CM-min.png"
 	},{
 		"CPU":[{
 			"number":"R3",
@@ -64,7 +64,7 @@
 		}]
 	}],
 	"Intel® i3 + GTX 1050 Ti 4GB":[{
-		"image":"https://digital-razor.ru/game_computers/pro-gaming/smart-configurator/ML600_2.png"
+		"image":"./img/Progaming/ML600_2.png"
 	},{
 		"CPU":[{
 			"number":"i3",
@@ -119,7 +119,7 @@
 	
 	
 	"Intel® i3 + GTX 1060 3gb":[{
-		"image":"https://digital-razor.ru/img/CM_DR.png"
+		"image":"./img/Progaming/CM_DR.png"
 	},{
 		"CPU":[{
 			"number":"i3",
@@ -159,7 +159,7 @@
 	}],
 	
 	"AMD Ryzen R5 + GTX 1060 3gb":[{
-		"image":"https://digital-razor.ru/game_computers/pro-gaming/smart-configurator/RGB_LITE_5.png"
+		"image":"./img/Progaming/RGB_LITE_5.png"
 	},{
 		"CPU":[{
 			"number":"R5",
@@ -199,7 +199,7 @@
 	}],
 	
 	"Intel® i5 + GTX 1060 6gb":[{
-		"image":"https://digital-razor.ru/game_computers/pro-gaming/smart-configurator/Q300_P.png"
+		"image":"./img/Progaming/Q300_P.png"
 	},{
 		"CPU":[{
 			"number":"i5",
@@ -240,7 +240,7 @@
 	
 	
 	"Intel® i7 + GTX 1070 8gb":[{
-		"image":"https://digital-razor.ru/game_computers/smart-configurator/img_prog/CMPRORGB-min.png"
+		"image":"./img/Progaming/CMPRORGB-min.png"
 	},{
 		"CPU":[{
 			"number":"i7",

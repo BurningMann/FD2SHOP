@@ -216,7 +216,7 @@ text-decoration:none;
 	z-index:1;
 	background:yellow;
 	margin:auto auto;
-	float:left;
+	/* float:left; */
 	opacity: 1;
     visibility: visible;
     -ms-animation-name: fadeIn;
@@ -257,7 +257,6 @@ text-decoration:none;
 .page_description{
 	width:100%;
 	float:left;
-	background:red;
 	max-height:700px;
 	padding:50px 0px;
 	
@@ -265,7 +264,6 @@ text-decoration:none;
 .page_description_box{
 	width:50%;
 	height:500px;
-	background:gray;
 	background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -289,7 +287,11 @@ text-decoration:none;
 	float:left;
 	margin:0px 2.5% 0px 2.5%;
 }
-
+.features_box p{
+text-align:center;
+font-family: MontserratSemiBold;
+font-size:20px;
+}
 .features_box img{
 	width:100%;
 }
@@ -421,7 +423,61 @@ overflow: hidden;
 	text-align:right;
 }
 
-
+.gallery-selector {
+	float: left;
+	margin-top: 5px;
+}
+.gallery-box {
+	padding: 0px 0px !important;
+	border: 5px solid black;
+	float: left;
+}
+.image-selection {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.50);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 65;
+	visibility: hidden;
+	opacity: 0;
+	display: block;
+}
+.image-selection div {
+	width: 50px;
+	margin: 27% auto;
+	background-color: #886c51;
+	border-radius: 5px;
+}
+.gallery-box:hover .image-selection {
+	opacity: 1;
+	visibility: visible;
+	-ms-animation-name: zoomIn;
+	-moz-animation-name: zoomIn;
+	-op-animation-name: zoomIn;
+	-webkit-animation-name: zoomIn;
+	animation-name: zoomIn;
+	-ms-animation-duration: 250ms;
+	-moz-animation-duration: 250ms;
+	-op-animation-duration: 250ms;
+	-webkit-animation-duration: 250ms;
+	animation-duration: 250ms;
+	-ms-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-op-animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-ms-animation-iteration-count: 1;
+	-moz-animation-iteration-count: 1;
+	-op-animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+}
+.gallery-box img {
+	width: 100%;
+	height: 100%;
+}
 
 
 
