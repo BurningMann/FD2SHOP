@@ -47,6 +47,14 @@ function switchToStateFromURLHash() {
 			console.log(`${err.status}-${err.statusText}`);
 		});
 	}
+	if(stateStr!="progaming" && stateStr!="perfomance" &&stateStr!="perfomanceX"&&stateStr != "mono"&&stateStr != "poweredByAMD"){
+		$("#container").remove()
+		$.get("/js/jsons/goods.json", function(obj) {
+			About(obj)
+		}).fail(function(err) {
+			console.log(`${err.status}-${err.statusText}`);
+		});		
+	}
 }
 let div = $(`<div class="div_menu">
 						<div class="div_navigation1">
@@ -70,6 +78,12 @@ let div = $(`<div class="div_menu">
 						</div>   
 					</div>`);
 $("#menu").append(div);
+
+
+
+
+
+
 
 function Progaming(obj) {
 	let Progaming_page = $(`
@@ -96,6 +110,8 @@ function Progaming(obj) {
 		</div>
 		`)
 	$("#content").append(Progaming_page);
+
+
 	for (let i = 0; i < obj.features.length; i++) {
 		let div = $(`<div class="features_box"><img src="${obj.features[i].image}"></div>`);
 		$(".features").append(div);
@@ -112,7 +128,6 @@ function Progaming(obj) {
 		$(".product")[i].onclick = function() {
 			if (!this.classList.contains('active_product')) {
 				$(".product_image").children()[0].remove()
-				console.log($(".product_characteristics").children().length)
 				let deleted_characteristics = $(".product_characteristics").children().length
 				for (let y = 0; y < deleted_characteristics; y++) {
 					$(".product_characteristics").children()[0].remove()
@@ -125,6 +140,13 @@ function Progaming(obj) {
 			};
 		}
 	}
+	$(".about_box").click(function(){
+		let texts = $(".active_product")[0].childNodes[0]
+		 texts=$(texts).text().replace(/\s+/g, '');
+		console.log(texts)
+		return render(texts)
+
+	})
 
 	function fill(productName) {
 		let accessories = []
@@ -151,8 +173,22 @@ function Progaming(obj) {
 			}
 		}
 	}
-<<<<<<< HEAD
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -265,7 +301,7 @@ function MONO(obj) {
 					<div class="page_description_box"><img src="/img/Mono/stinger-page_2.jpg"></div>
 					<div class="page_description_box">
 						<h2>МОЩНАЯ ИГРОВАЯ НАЧИНКА</h2>
-						<p>В основе DIGITALRAZOR STINGER лежит шестиядерный процессор Intel® Core™ 8xx, последнего поколения и современная видеокарта GeForce GTX 10-й серии. Новинка построена на материнской плате с набором системной логики Intel® Z370, которая выполнена в форм-факторе Mini-ITX. Моноблок поддерживает до 32 Гбайт оперативной памяти DDR4 с частотой до 4000Mhz, а также имеет возможность установки жидкостного охлаждения для процессора. В качестве накопителей может использоваться как SSD так и HDD, этого имеется один слот с интерфейсом М.2, а также пара 2.5-дюймовых отсеков. </p>
+						<p>В основе DIGITALRAZOR STINGER лежит шестиядерный процессор Intel  Core™ 8xx, последнего поколения и современная видеокарта GeForce GTX 10-й серии. Новинка построена на материнской плате с набором системной логики Intel  Z370, которая выполнена в форм-факторе Mini-ITX. Моноблок поддерживает до 32 Гбайт оперативной памяти DDR4 с частотой до 4000Mhz, а также имеет возможность установки жидкостного охлаждения для процессора. В качестве накопителей может использоваться как SSD так и HDD, этого имеется один слот с интерфейсом М.2, а также пара 2.5-дюймовых отсеков. </p>
 					</div>
 				</div>
 				<div class="page_title">
@@ -277,7 +313,7 @@ function MONO(obj) {
 		</div>
 		`)
 	$("#content").append(Progaming_page);
-	for (let i = 0; i < obj.features.length; i++) {
+/* 	for (let i = 0; i < obj.features.length; i++) {
 		let div = $(`<div class="features_box"><img src="${obj.features[i].image}"><p>${obj.features[i].description}</p></div>`);
 		$(".features").append(div);
 	}
@@ -289,7 +325,18 @@ function MONO(obj) {
 				</div>
 		`);
 		$(".gallery-selector").append(div);
-	}
+	} */
+	
+	
+}
+
+
+function About(obj){
+	var URLHash = window.location.hash;
+	var stateStr = URLHash.substr(1);
+	console.log(stateStr.split(''))	
+	stateStr =stateStr.replace(/\s+/g, '%C2%');
+	console.log(stateStr)
 	
 	
 }
@@ -316,18 +363,5 @@ function MONO(obj) {
 
 
 
-
-
-
-
-=======
 	
-	$(".about_box").click(function(){
-		return newEra()
 
-	})
-	function newEra(){
-		console.log("ghgh")
-	}
-}
->>>>>>> 0ac9a64ff7bae1664f50dc9b09461cdfd1d2cf1f

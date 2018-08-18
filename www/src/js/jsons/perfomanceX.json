@@ -10,32 +10,32 @@
 		"image": "./img/PerfomanceX/warranty2.png"
 	}],
 	"goods":[{
-		"name":"Intel® i7-X + 1080 8GB",
+		"name":"Intel  i7-X + 1080 8GB",
 		"price":"255 000"
 	},{
-		"name":"Intel® i9-X + 1080 Ti 11GB",
+		"name":"Intel  i9-X + 1080 Ti 11GB",
 		"price":"310 000"
 	},{
 		"name":"AMD TR 1920X + 1080 Ti 11GB",
 		"price":"343 000"
 	},{
-		"name":"Intel® i9-X + 1080Ti 11GB",
+		"name":"Intel  i9-X + 1080Ti 11GB",
 		"price":"390 000"
 	},{
 		"name":"AMD TR 1950X + 2X 1080 Ti 11GB",
 		"price":"500 000"
 	},{
-		"name":"Intel® i9-X + 2X 1080 Ti 11GB",
+		"name":"Intel  i9-X + 2X 1080 Ti 11GB",
 		"price":"588 000"
 		
 	}],
-	"Intel® i7-X + 1080 8GB":[{
+	"Intel  i7-X + 1080 8GB":[{
 		"image":"./img/PerfomanceX/DigitalRazor_Corsair_600C-min.png"
 	},{
 		"CPU":[{
 			"number":"i7X",
 			"name1":"8-ми ядерный",
-			"name2":"Intel® Core™"
+			"name2":"Intel  Core™"
 		}]
 		},{
 		"videoCard":[{
@@ -74,13 +74,13 @@
 			"name2":"гарантии"
 		}]
 	}],
-	"Intel® i9-X + 1080 Ti 11GB":[{
+	"Intel  i9-X + 1080 Ti 11GB":[{
 		"image":"./img/PerfomanceX/DigitalRazor_NZXT_700i-min.png"
 	},{
 		"CPU":[{
 			"number":"i9X",
 			"name1":"10-ти ядерный",
-			"name2":"Intel® Core™"
+			"name2":"Intel  Core™"
 		}]
 		},{
 		"videoCard":[{
@@ -165,13 +165,13 @@
 		}]
 	}],
 	
-	"Intel® i9-X + 1080Ti 11GB":[{
+	"Intel  i9-X + 1080Ti 11GB":[{
 		"image":"./img/PerfomanceX/DigitalRazor_CoolerMaker_5T-min.png"
 	},{
 		"CPU":[{
 			"number":"i9X",
 			"name1":"14-ти ядерный",
-			"name2":"Intel® Core™"
+			"name2":"Intel  Core™"
 		}]
 		},{
 		"videoCard":[{
@@ -258,13 +258,13 @@
 	}],
 	
 	
-	"Intel® i9-X + 2X 1080 Ti 11GB":[{
+	"Intel  i9-X + 2X 1080 Ti 11GB":[{
 		"image":"./img/PerfomanceX/DigitalRazor_Cosmos_C700P-min.png"
 	},{
 		"CPU":[{
 			"number":"i9X",
 			"name1":"18-ти ядерный",
-			"name2":"Intel® Core™"
+			"name2":"Intel  Core™"
 		}]
 		},{
 		"videoCard":[{

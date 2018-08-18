@@ -13,19 +13,19 @@
 		"name":"AMD Ryzen R3 + GTX 1050 2GB",
 		"price":"50 000"
 	},{
-		"name":"Intel® i3 + GTX 1050 Ti 4GB",
+		"name":"Intel  i3 + GTX 1050 Ti 4GB",
 		"price":"60 000"
 	},{
-		"name":"Intel® i3 + GTX 1060 3gb",
+		"name":"Intel  i3 + GTX 1060 3gb",
 		"price":"65 000"
 	},{
 		"name":"AMD Ryzen R5 + GTX 1060 3gb",
 		"price":"80 000"
 	},{
-		"name":"Intel® i5 + GTX 1060 6gb",
+		"name":"Intel  i5 + GTX 1060 6gb",
 		"price":"90 000"
 	},{
-		"name":"Intel® i7 + GTX 1070 8gb",
+		"name":"Intel  i7 + GTX 1070 8gb",
 		"price":"115 000"
 	}],
 	"AMD Ryzen R3 + GTX 1050 2GB":[{
@@ -63,13 +63,13 @@
 			"name2":"гарантии"
 		}]
 	}],
-	"Intel® i3 + GTX 1050 Ti 4GB":[{
+	"Intel  i3 + GTX 1050 Ti 4GB":[{
 		"image":"./img/Progaming/ML600_2.png"
 	},{
 		"CPU":[{
 			"number":"i3",
 			"name1":"4-х ядерный",
-			"name2":"Intel® Core™"
+			"name2":"Intel  Core™"
 		}]
 		},{
 		"videoCard":[{
@@ -118,13 +118,13 @@
 	
 	
 	
-	"Intel® i3 + GTX 1060 3gb":[{
+	"Intel  i3 + GTX 1060 3gb":[{
 		"image":"./img/Progaming/CM_DR.png"
 	},{
 		"CPU":[{
 			"number":"i3",
 			"name1":"4-х ядерный",
-			"name2":"Intel® Core™"
+			"name2":"Intel  Core™"
 		}]
 		},{
 		"videoCard":[{
@@ -198,13 +198,13 @@
 		}]
 	}],
 	
-	"Intel® i5 + GTX 1060 6gb":[{
+	"Intel  i5 + GTX 1060 6gb":[{
 		"image":"./img/Progaming/Q300_P.png"
 	},{
 		"CPU":[{
 			"number":"i5",
 			"name1":"6-ти ядерный",
-			"name2":"Intel® Core™"
+			"name2":"Intel  Core™"
 		}]
 		},{
 		"videoCard":[{
@@ -239,13 +239,13 @@
 	}],
 	
 	
-	"Intel® i7 + GTX 1070 8gb":[{
+	"Intel  i7 + GTX 1070 8gb":[{
 		"image":"./img/Progaming/CMPRORGB-min.png"
 	},{
 		"CPU":[{
 			"number":"i7",
 			"name1":"6-ти ядерный",
-			"name2":"Intel® Core™"
+			"name2":"Intel  Core™"
 		}]
 		},{
 		"videoCard":[{

@@ -10,10 +10,10 @@
 		"image": "./img/Perfomance/warranty1.png"
 	}],
 	"goods":[{
-		"name":"Intel® i5K + GTX 1060 6GB",
+		"name":"Intel  i5K + GTX 1060 6GB",
 		"price":"105 000"
 	},{
-		"name":"Intel® i5K + GTX 1070 8GB",
+		"name":"Intel  i5K + GTX 1070 8GB",
 		"price":"125 000"
 	},{
 		"name":"AMD Ryzen R7 + GTX 1070 8gb",
@@ -22,20 +22,20 @@
 		"name":"AMD Ryzen R7 + GTX 1080 8gb",
 		"price":"146 000"
 	},{
-		"name":"Intel® i7K + GTX 1080 8gb",
+		"name":"Intel  i7K + GTX 1080 8gb",
 		"price":"157 000"
 	},{
-		"name":"Intel® i7K + GTX 1080 Ti 11gb",
+		"name":"Intel  i7K + GTX 1080 Ti 11gb",
 		"price":"205 000"
 		
 	}],
-	"Intel® i5K + GTX 1060 6GB":[{
+	"Intel  i5K + GTX 1060 6GB":[{
 		"image":"./img/Perfomance/nzxt340-min.png"
 	},{
 		"CPU":[{
 			"number":"i5K",
 			"name1":"6-ти ядерный",
-			"name2":"Intel® Core™"
+			"name2":"Intel  Core™"
 		}]
 		},{
 		"videoCard":[{
@@ -68,13 +68,13 @@
 			"name2":"гарантии"
 		}]
 	}],
-	"Intel® i5K + GTX 1070 8GB":[{
+	"Intel  i5K + GTX 1070 8GB":[{
 		"image":"./img/Perfomance/460x-min.png"
 	},{
 		"CPU":[{
 			"number":"i5K",
 			"name1":"6-ти ядерный",
-			"name2":"Intel® Core™"
+			"name2":"Intel  Core™"
 		}]
 		},{
 		"videoCard":[{
@@ -187,13 +187,13 @@
 		}]
 	}],
 	
-	"Intel® i7K + GTX 1080 8gb":[{
+	"Intel  i7K + GTX 1080 8gb":[{
 		"image":"./img/Perfomance/570x-min.png"
 	},{
 		"CPU":[{
 			"number":"i7K",
 			"name1":"6-ти ядерный",
-			"name2":"Intel® Core™"
+			"name2":"Intel  Core™"
 		}]
 		},{
 		"videoCard":[{
@@ -228,13 +228,13 @@
 	}],
 	
 	
-	"Intel® i7K + GTX 1080 Ti 11gb":[{
+	"Intel  i7K + GTX 1080 Ti 11gb":[{
 		"image":"./img/Perfomance/maker5t-min.png"
 	},{
 		"CPU":[{
 			"number":"i7K",
 			"name1":"6-ти ядерный",
-			"name2":"Intel® Core™"
+			"name2":"Intel  Core™"
 		}]
 		},{
 		"videoCard":[{
