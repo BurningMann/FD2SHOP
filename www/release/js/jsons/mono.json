@@ -1,0 +1,31 @@
+
+{
+	"features": [{
+		"image": "./img/Mono/dr-stinger-0.jpg",
+		"description": "Изогнутый монитор"
+	},{
+		"image": "./img/Mono/dr-stinger-1.jpg",
+		"description": "Intel Inside®"
+	},{
+		"image": "./img/Mono/dr-stinger-2.jpg",
+		"description": "Видеокарта Geforce"
+	},{
+		"image": "./img/Mono/dr-stinger-3.jpg",
+		"description": "СВО процессора"
+	}],
+	"gallery":[{
+		"image": "./img/Mono/gallery 1.jpg"
+	},{
+		"image": "./img/Mono/gallery 2.jpg"
+	},{
+		"image": "./img/Mono/gallery 1.jpg"
+	},{
+		"image": "./img/Mono/gallery 1.jpg"
+	},{
+		"image": "./img/Mono/gallery 1.jpg"
+	},{
+		"image": "./img/Mono/gallery 1.jpg"	
+	}]
+	
+	
+	}

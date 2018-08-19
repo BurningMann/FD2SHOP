@@ -1,75 +1,32 @@
 
 {
-	"features": [{
-		"image": "./img/Progaming/cpu0.png"
-	},{
-		"image": "./img/Progaming/memory0.png"
-	},{
-		"image": "./img/Progaming/gpu0.png"
-	},{
-		"image": "./img/Progaming/warranty0.png"
-	}],
 	"goods":[{
-		"name":"AMD Ryzen R3 + GTX 1050 2GB",
-		"price":"50 000"
-	},{
-		"name":"Intel  i3 + GTX 1050 Ti 4GB",
-		"price":"60 000"
-	},{
-		"name":"Intel  i3 + GTX 1060 3gb",
-		"price":"65 000"
+		"name":"AMD Ryzen R3 + GTX 1050 Ti 4GB",
+		"price":"57 000"
 	},{
 		"name":"AMD Ryzen R5 + GTX 1060 3gb",
-		"price":"80 000"
+		"price":"61 500"
 	},{
-		"name":"Intel  i5 + GTX 1060 6gb",
-		"price":"90 000"
+		"name":"AMD Ryzen R5 + GTX 1060 6gb",
+		"price":"84 500"
 	},{
-		"name":"Intel  i7 + GTX 1070 8gb",
-		"price":"115 000"
+		"name":"AMD Ryzen R7 + GTX 1070 8gb",
+		"price":"124 500"
+	},{
+		"name":"AMD Ryzen R7 + GTX 1080 8gb",
+		"price":"150 000"
+	},{
+		"name":"AMD TR 1920X + GTX 1080 Ti 11gb",
+		"price":"311 000"
+		
 	}],
-	"AMD Ryzen R3 + GTX 1050 2GB":[{
-		"image":"./img/Progaming/300CM-min.png"
+	"AMD Ryzen R3 + GTX 1050 Ti 4GB":[{
+		"image":"./img/ByAMD/300CM-min-min.png"
 	},{
 		"CPU":[{
 			"number":"R3",
 			"name1":"4-х ядерный",
 			"name2":"AMD RYZEN"
-		}]
-		},{
-		"videoCard":[{
-			"number":"1050",
-			"name1":"2GB",
-			"name2":"geforce GTX"
-		}]
-		},{
-		"RAM":[{
-			"number":"8GB",
-			"name1":"DDR4",
-			"name2":"2400 MHz"
-		}]
-		},{
-		"SDD":[{}]
-		},{
-		"HDD":[{
-			"number":"1TB",
-			"name1":"HDD",
-			"name2":"накопитель"
-		}]
-		},{
-		"guarantee":[{
-			"number":"12",
-			"name1":"месяцев",
-			"name2":"гарантии"
-		}]
-	}],
-	"Intel  i3 + GTX 1050 Ti 4GB":[{
-		"image":"./img/Progaming/ML600_2.png"
-	},{
-		"CPU":[{
-			"number":"i3",
-			"name1":"4-х ядерный",
-			"name2":"Intel  Core™"
 		}]
 		},{
 		"videoCard":[{
@@ -84,12 +41,6 @@
 			"name2":"2400 MHz"
 		}]
 		},{
-		"SDD":[{
-			"number":"120",
-			"name1":"GB",
-			"name2":"SSD-накопитель"
-		}]
-		},{
 		"HDD":[{
 			"number":"1TB",
 			"name1":"HDD",
@@ -102,29 +53,13 @@
 			"name2":"гарантии"
 		}]
 	}],
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	"Intel  i3 + GTX 1060 3gb":[{
-		"image":"./img/Progaming/CM_DR.png"
+	"AMD Ryzen R5 + GTX 1060 3gb":[{
+		"image":"./img/ByAMD/RGB_LITE_5.png"
 	},{
 		"CPU":[{
-			"number":"i3",
-			"name1":"4-х ядерный",
-			"name2":"Intel  Core™"
+			"number":"R5",
+			"name1":"4-x ядерный",
+			"name2":"AMD Ryzen"
 		}]
 		},{
 		"videoCard":[{
@@ -139,12 +74,6 @@
 			"name2":"2400 MHz"
 		}]
 		},{
-		"SDD":[{
-			"number":"120",
-			"name1":"GB",
-			"name2":"SSD-накопитель"
-		}]
-		},{
 		"HDD":[{
 			"number":"1TB",
 			"name1":"HDD",
@@ -157,54 +86,13 @@
 			"name2":"гарантии"
 		}]
 	}],
-	
-	"AMD Ryzen R5 + GTX 1060 3gb":[{
-		"image":"./img/Progaming/RGB_LITE_5.png"
+	"AMD Ryzen R5 + GTX 1060 6gb":[{
+		"image":"./img/ByAMD/Q300_P.png"
 	},{
 		"CPU":[{
 			"number":"R5",
 			"name1":"6-ти ядерный",
 			"name2":"AMD Ryzen"
-		}]
-		},{
-		"videoCard":[{
-			"number":"1060",
-			"name1":"3GB",
-			"name2":"geforce GTX"
-		}]
-		},{
-		"RAM":[{
-			"number":"16GB",
-			"name1":"DDR4",
-			"name2":"2800 MHz"
-		}]
-		},{
-		"SDD":[{
-			"number":"120",
-			"name1":"GB",
-			"name2":"SSD-накопитель"
-		}]
-		},{
-		"HDD":[{
-			"number":"1TB",
-			"name1":"HDD",
-			"name2":"накопитель"
-		}]
-		},{
-		"guarantee":[{
-			"number":"12",
-			"name1":"месяцев",
-			"name2":"гарантии"
-		}]
-	}],
-	
-	"Intel  i5 + GTX 1060 6gb":[{
-		"image":"./img/Progaming/Q300_P.png"
-	},{
-		"CPU":[{
-			"number":"i5",
-			"name1":"6-ти ядерный",
-			"name2":"Intel  Core™"
 		}]
 		},{
 		"videoCard":[{
@@ -216,13 +104,13 @@
 		"RAM":[{
 			"number":"16GB",
 			"name1":"DDR4",
-			"name2":"2800 MHz"
+			"name2":"2400 MHz"
 		}]
 		},{
 		"SDD":[{
-			"number":"120",
-			"name1":"GB",
-			"name2":"SSD-накопитель"
+			"number":"120GB",
+			"name1":"SSD",
+			"name2":"накопитель"
 		}]
 		},{
 		"HDD":[{
@@ -238,14 +126,13 @@
 		}]
 	}],
 	
-	
-	"Intel  i7 + GTX 1070 8gb":[{
-		"image":"./img/Progaming/CMPRORGB-min.png"
+	"AMD Ryzen R7 + GTX 1070 8gb":[{
+		"image":"./img/ByAMD/460x-min.png"
 	},{
 		"CPU":[{
-			"number":"i7",
-			"name1":"6-ти ядерный",
-			"name2":"Intel  Core™"
+			"number":"R7",
+			"name1":"8-ми ядерный",
+			"name2":"AMD Ryzen"
 		}]
 		},{
 		"videoCard":[{
@@ -261,9 +148,9 @@
 		}]
 		},{
 		"SDD":[{
-			"number":"240",
-			"name1":"GB",
-			"name2":"SSD-накопитель"
+			"number":"240GB",
+			"name1":"SSD",
+			"name2":"накопитель"
 		}]
 		},{
 		"HDD":[{
@@ -273,9 +160,103 @@
 		}]
 		},{
 		"guarantee":[{
-			"number":"12",
+			"number":"36",
+			"name1":"месяцев",
+			"name2":"гарантии"
+		}]
+	}],
+	
+	"AMD Ryzen R7 + GTX 1080 8gb":[{
+		"image":"./img/ByAMD/CM500-min.png"
+	},{
+		"CPU":[{
+			"number":"R7",
+			"name1":"8-ми ядерный",
+			"name2":"AMD Ryzen"
+		}]
+		},{
+		"videoCard":[{
+			"number":"1080",
+			"name1":"8GB",
+			"name2":"geforce GTX"
+		}]
+		},{
+		"RAM":[{
+			"number":"16GB",
+			"name1":"DDR4",
+			"name2":"2800 MHz"
+		}]
+		},{
+		"M2":[{
+			"number":"120GB",
+			"name1":"M2",
+			"name2":"накопитель"
+		}]
+		},{
+		"SDD":[{
+			"number":"250GB",
+			"name1":"SSD",
+			"name2":"накопитель"
+		}]
+		},{
+		"HDD":[{
+			"number":"2TB",
+			"name1":"HDD",
+			"name2":"накопитель"
+		}]
+		},{
+		"guarantee":[{
+			"number":"36",
+			"name1":"месяцев",
+			"name2":"гарантии"
+		}]
+	}],
+	
+	
+	"AMD TR 1920X + GTX 1080 Ti 11gb":[{
+		"image":"./img/ByAMD/DigitalRazor_Cosmos_C700P-min.png"
+	},{
+		"CPU":[{
+			"number":"1920X",
+			"name1":"12-ти ядерный",
+			"name2":"ThreadRipper"
+		}]
+		},{
+		"videoCard":[{
+			"number":"1080",
+			"name1":"11GB Ti",
+			"name2":"geforce GTX"
+		}]
+		},{
+		"RAM":[{
+			"number":"32GB",
+			"name1":"DDR4",
+			"name2":"3000 MHz"
+		}]
+		},{
+		"M2":[{
+			"number":"250GB",
+			"name1":"M2",
+			"name2":"накопитель"
+		}]
+		},{
+		"SDD":[{
+			"number":"500GB",
+			"name1":"SSD",
+			"name2":"накопитель"
+		}]
+		},{
+		"HDD":[{
+			"number":"4TB",
+			"name1":"HDD",
+			"name2":"накопитель"
+		}]
+		},{
+		"guarantee":[{
+			"number":"36",
 			"name1":"месяцев",
 			"name2":"гарантии"
 		}]
 	}]
+	
 	}
