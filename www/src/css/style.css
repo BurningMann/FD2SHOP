@@ -214,9 +214,7 @@ text-decoration:none;
 	max-width: 100%;
 	position:relative;
 	z-index:1;
-	background:yellow;
 	margin:auto auto;
-	/* float:left; */
 	opacity: 1;
     visibility: visible;
     -ms-animation-name: fadeIn;
@@ -569,7 +567,119 @@ font-family: BitterRegular;
 	font-family: BitterRegular;
 }
 /*end About*/
+/*main*/
+.main1{
+	width:100%;
+	float:left;
+}
+.main_box{
+	width:100%;
+	min-height:350px;
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;	
+	
+}
+.main_box2 img{
+		width:100%;
+}
+.main_box2{
+	width:100%;
+	text-align:center;
+}
+.main1_block{
+	width:21%;
+	float:left;
+	margin:0px 2%;
+	cursor:pointer;
+	background:#232323;
+	-moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+.main1_block:hover{
+    overflow: hidden;
+	transform: scale(1.1);
+}
+.main_title{
+	font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+	border:2px solid white;
+	
+}
+.main_tprice{
+	text-transform: uppercase;
+    text-align: center;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+	border:2px solid white;
+	font-size: 30px;
+	   font-weight: bold;
+}
+.main_chose{
+	min-width:200px;
+	margin:20px 0px 20px 0px;
+	float:left;
+}
+.main_chose1{
+	background:#E5262D;
+	float:left;
+	padding:5px;
+	text-transform: uppercase;
+    text-align: center;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+	font-size: 30px;
+	   font-weight: bold;
+	   margin-right:20px;
+	
+}
+.main_chose2{
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+	padding:5px;
+		min-width:200px;
+		max-width:300px;
+	text-transform: uppercase;
+    text-align: center;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+	font-size: 30px;
+	   font-weight: bold;
+		
+	
+}
 
+.main_space{
+	width:44%;
+	margin:0px 2%;
+	float:left;
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+	font-size:20px;
+background:#232323;	
+}
+.main_box3{
+	width:100%;
+	text-align:left;
+	padding: 30px 0px 30px 20px;
+	background:#151414;
+	min-height:200px;
+
+
+
+
+
+/*main*/
 
 
 

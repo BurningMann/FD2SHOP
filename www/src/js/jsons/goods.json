@@ -148,7 +148,6 @@
 	
 	
 	
-	
 	"Inteli5K+GTX10606GB":[{
 		"image":"./img/Perfomance/nzxt340-min.png"
 	},{
@@ -311,276 +310,132 @@
 		"Inteli7-X+10808GB":[{
 		"image":"./img/PerfomanceX/DigitalRazor_Corsair_600C-min.png"
 	},{
-		"CPU":[{
-			"number":"i7X",
-			"name1":"8-ми ядерный",
-			"name2":"Intel  Core™"
-		}]
-		},{
-		"videoCard":[{
-			"number":"1080",
-			"name1":"8GB",
-			"name2":"geforce GTX"
-		}]
-		},{
-		"RAM":[{
-			"number":"32GB",
-			"name1":"DDR4",
-			"name2":"3000 MHz"
-		}]
-		},{
-		"M2":[{
-			"number":"512",
-			"name1":"GB",
-			"name2":"M2-накопитель"
-		}]
-		},{
-		"SDD":[{
-			"number":"500",
-			"name1":"GB",
-			"name2":"SSD-накопитель"
-		}]
-		},{
-		"HDD":[{
-			"number":"3TB",
-			"name1":"HDD",
-			"name2":"накопитель"
-		}]
-		},{
-		"guarantee":[{
-			"number":"36",
-			"name1":"месяцев",
-			"name2":"гарантии"
-		}]
+	"CPU":"6-ядерный Intel Core i7-8700 3.20 GHz"
+	},{
+	"Сolling":"Воздушная система охлаждения"
+	},{
+	"RAM":"16GB (2x8Gb) DDR4 2400Mhz"
+	},{
+	"videoCard":"NVIDIA GeForce GTX 1070 8GB"
+	},{
+	"SDD":"SSD 240GB"
+	},{
+	"HDD":"Жесткий диск 1TB"
+	},{
+	"Корпус":"Cooler Master MasterBox Lite 5"
+	},{
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 12 месяцев"
 	}],
 	"Inteli9-X+1080Ti11GB":[{
 		"image":"./img/PerfomanceX/DigitalRazor_NZXT_700i-min.png"
 	},{
-		"CPU":[{
-			"number":"i7X",
-			"name1":"8-ми ядерный",
-			"name2":"Intel  Core™"
-		}]
-		},{
-		"videoCard":[{
-			"number":"1080",
-			"name1":"8GB",
-			"name2":"geforce GTX"
-		}]
-		},{
-		"RAM":[{
-			"number":"32GB",
-			"name1":"DDR4",
-			"name2":"3000 MHz"
-		}]
-		},{
-		"M2":[{
-			"number":"512",
-			"name1":"GB",
-			"name2":"M2-накопитель"
-		}]
-		},{
-		"SDD":[{
-			"number":"500",
-			"name1":"GB",
-			"name2":"SSD-накопитель"
-		}]
-		},{
-		"HDD":[{
-			"number":"3TB",
-			"name1":"HDD",
-			"name2":"накопитель"
-		}]
-		},{
-		"guarantee":[{
-			"number":"36",
-			"name1":"месяцев",
-			"name2":"гарантии"
-		}]
+	"CPU":"6-ядерный Intel Core i7-8700 3.20 GHz"
+	},{
+	"Сolling":"Воздушная система охлаждения"
+	},{
+	"RAM":"16GB (2x8Gb) DDR4 2400Mhz"
+	},{
+	"videoCard":"NVIDIA GeForce GTX 1070 8GB"
+	},{
+	"SDD":"SSD 240GB"
+	},{
+	"HDD":"Жесткий диск 1TB"
+	},{
+	"Корпус":"Cooler Master MasterBox Lite 5"
+	},{
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 12 месяцев"
 	}],
 	"AMDTR1920X+1080Ti11GB":[{
 		"image":"./img/PerfomanceX/DigitalRazor_Corsair_570X-min1.png"
 	},{
-		"CPU":[{
-			"number":"i7X",
-			"name1":"8-ми ядерный",
-			"name2":"Intel  Core™"
-		}]
-		},{
-		"videoCard":[{
-			"number":"1080",
-			"name1":"8GB",
-			"name2":"geforce GTX"
-		}]
-		},{
-		"RAM":[{
-			"number":"32GB",
-			"name1":"DDR4",
-			"name2":"3000 MHz"
-		}]
-		},{
-		"M2":[{
-			"number":"512",
-			"name1":"GB",
-			"name2":"M2-накопитель"
-		}]
-		},{
-		"SDD":[{
-			"number":"500",
-			"name1":"GB",
-			"name2":"SSD-накопитель"
-		}]
-		},{
-		"HDD":[{
-			"number":"3TB",
-			"name1":"HDD",
-			"name2":"накопитель"
-		}]
-		},{
-		"guarantee":[{
-			"number":"36",
-			"name1":"месяцев",
-			"name2":"гарантии"
-		}]
+	"CPU":"6-ядерный Intel Core i7-8700 3.20 GHz"
+	},{
+	"Сolling":"Воздушная система охлаждения"
+	},{
+	"RAM":"16GB (2x8Gb) DDR4 2400Mhz"
+	},{
+	"videoCard":"NVIDIA GeForce GTX 1070 8GB"
+	},{
+	"SDD":"SSD 240GB"
+	},{
+	"HDD":"Жесткий диск 1TB"
+	},{
+	"Корпус":"Cooler Master MasterBox Lite 5"
+	},{
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 12 месяцев"
 	}],
 	
 	"Inteli9-X+1080Ti11GB":[{
 		"image":"./img/PerfomanceX/DigitalRazor_CoolerMaker_5T-min.png"
 	},{
-		"CPU":[{
-			"number":"i7X",
-			"name1":"8-ми ядерный",
-			"name2":"Intel  Core™"
-		}]
-		},{
-		"videoCard":[{
-			"number":"1080",
-			"name1":"8GB",
-			"name2":"geforce GTX"
-		}]
-		},{
-		"RAM":[{
-			"number":"32GB",
-			"name1":"DDR4",
-			"name2":"3000 MHz"
-		}]
-		},{
-		"M2":[{
-			"number":"512",
-			"name1":"GB",
-			"name2":"M2-накопитель"
-		}]
-		},{
-		"SDD":[{
-			"number":"500",
-			"name1":"GB",
-			"name2":"SSD-накопитель"
-		}]
-		},{
-		"HDD":[{
-			"number":"3TB",
-			"name1":"HDD",
-			"name2":"накопитель"
-		}]
-		},{
-		"guarantee":[{
-			"number":"36",
-			"name1":"месяцев",
-			"name2":"гарантии"
-		}]
+	"CPU":"6-ядерный Intel Core i7-8700 3.20 GHz"
+	},{
+	"Сolling":"Воздушная система охлаждения"
+	},{
+	"RAM":"16GB (2x8Gb) DDR4 2400Mhz"
+	},{
+	"videoCard":"NVIDIA GeForce GTX 1070 8GB"
+	},{
+	"SDD":"SSD 240GB"
+	},{
+	"HDD":"Жесткий диск 1TB"
+	},{
+	"Корпус":"Cooler Master MasterBox Lite 5"
+	},{
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 12 месяцев"
 	}],
 	
 	"AMDTR1950X+2X1080Ti11GB":[{
 		"image":"./img/PerfomanceX/DigitalRazor_Cougar-min.png"
 	},{
-		"CPU":[{
-			"number":"i7X",
-			"name1":"8-ми ядерный",
-			"name2":"Intel  Core™"
-		}]
-		},{
-		"videoCard":[{
-			"number":"1080",
-			"name1":"8GB",
-			"name2":"geforce GTX"
-		}]
-		},{
-		"RAM":[{
-			"number":"32GB",
-			"name1":"DDR4",
-			"name2":"3000 MHz"
-		}]
-		},{
-		"M2":[{
-			"number":"512",
-			"name1":"GB",
-			"name2":"M2-накопитель"
-		}]
-		},{
-		"SDD":[{
-			"number":"500",
-			"name1":"GB",
-			"name2":"SSD-накопитель"
-		}]
-		},{
-		"HDD":[{
-			"number":"3TB",
-			"name1":"HDD",
-			"name2":"накопитель"
-		}]
-		},{
-		"guarantee":[{
-			"number":"36",
-			"name1":"месяцев",
-			"name2":"гарантии"
-		}]
+	"CPU":"6-ядерный Intel Core i7-8700 3.20 GHz"
+	},{
+	"Сolling":"Воздушная система охлаждения"
+	},{
+	"RAM":"16GB (2x8Gb) DDR4 2400Mhz"
+	},{
+	"videoCard":"NVIDIA GeForce GTX 1070 8GB"
+	},{
+	"SDD":"SSD 240GB"
+	},{
+	"HDD":"Жесткий диск 1TB"
+	},{
+	"Корпус":"Cooler Master MasterBox Lite 5"
+	},{
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 12 месяцев"
 	}],
 	
 	
 	"Inteli9-X+2X1080Ti11GB":[{
 		"image":"./img/PerfomanceX/DigitalRazor_Cosmos_C700P-min.png"
 	},{
-		"CPU":[{
-			"number":"i7X",
-			"name1":"8-ми ядерный",
-			"name2":"Intel  Core™"
-		}]
-		},{
-		"videoCard":[{
-			"number":"1080",
-			"name1":"8GB",
-			"name2":"geforce GTX"
-		}]
-		},{
-		"RAM":[{
-			"number":"32GB",
-			"name1":"DDR4",
-			"name2":"3000 MHz"
-		}]
-		},{
-		"M2":[{
-			"number":"512",
-			"name1":"GB",
-			"name2":"M2-накопитель"
-		}]
-		},{
-		"SDD":[{
-			"number":"500",
-			"name1":"GB",
-			"name2":"SSD-накопитель"
-		}]
-		},{
-		"HDD":[{
-			"number":"3TB",
-			"name1":"HDD",
-			"name2":"накопитель"
-		}]
-		},{
-		"guarantee":[{
-			"number":"36",
-			"name1":"месяцев",
-			"name2":"гарантии"
-		}]
+	"CPU":"6-ядерный Intel Core i7-8700 3.20 GHz"
+	},{
+	"Сolling":"Воздушная система охлаждения"
+	},{
+	"RAM":"16GB (2x8Gb) DDR4 2400Mhz"
+	},{
+	"videoCard":"NVIDIA GeForce GTX 1070 8GB"
+	},{
+	"SDD":"SSD 240GB"
+	},{
+	"HDD":"Жесткий диск 1TB"
+	},{
+	"Корпус":"Cooler Master MasterBox Lite 5"
+	},{
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 12 месяцев"
 	}]
 	
 	

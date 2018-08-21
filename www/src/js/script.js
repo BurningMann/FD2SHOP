@@ -23,15 +23,7 @@ $(document).ready(function() {
 						</div>   
 					</div>`);
 $("#menu").append(div_menu);
-let div_footer= $(`<div class="footer_box"></div>
-
-
-
-
-
-
-
-`)
+let div_footer= $(`<div class="footer_box"></div>`)
 $("#footer").append(div_footer);
 $(".li_navigation1").click(function(){
 		console.log("gg")
@@ -66,6 +58,7 @@ function switchToStateFromURLHash() {
 	var stateStr = URLHash.substr(1);
 	if (stateStr == "") {
 		$("#container").remove()
+		Main()
 	}
 	if(stateStr == "poweredByAMD") {
 		$("#container").remove()
@@ -94,7 +87,7 @@ function switchToStateFromURLHash() {
 			console.log(`${err.status}-${err.statusText}`);
 		});
 	}
-	if(stateStr!="progaming" && stateStr!="perfomance" &&stateStr!="perfomanceX"&&stateStr != "mono"&&stateStr != "poweredByAMD"){
+	if(stateStr!="progaming" && stateStr!="perfomance" &&stateStr!="perfomanceX"&&stateStr != "mono"&&stateStr != "poweredByAMD" &&stateStr != ""){
 		$("#container").remove()
 		$.get("/js/jsons/goods.json", function(obj) {
 			About(obj)
@@ -106,7 +99,76 @@ function switchToStateFromURLHash() {
 
 
 
-
+function Main(){
+	let block1 =$(`
+	<div id="container">
+		<div class="main_chose">
+			<div class="main_chose1">выбери</div>
+			<div class="main_chose2">игровую серию</div>
+		</div>
+		<div class="main1">
+				<div class="main1_block" onclick="render('progaming')">
+					<div class ="main_box" style="background-image:url('/img/cm_lite.png');"></div>
+					<div class="main_title">progaming</div>
+					<div class ="main_box2">Игровые компьютеры данной серии прекрасно подойдут для игр в FullHD</div>
+					<div class ="main_box2" ><img src="/img/Progaming.png"></div>
+					<div class="main_tprice">от 1500 руб</div>
+				</div>
+				
+				<div class="main1_block" onclick="render('perfomance')">
+					<div class ="main_box" style="background-image:url('/img/500H.png');"></div>
+					<div class="main_title">perfomance</div>
+					<div class ="main_box2">Универсальные компьютеры для игр, стриминга и создания контента</div>
+					<div class ="main_box2" ><img src="/img/Performance.png"></div>
+					<div class="main_tprice">от 3000 руб</div>
+				</div>
+				
+					<div class="main1_block" onclick="render('perfomanceX')">
+					<div class ="main_box" style="background-image:url('/img/maker51t.png');"></div>
+					<div class="main_title">perfomance X</div>
+					<div class ="main_box2">Мощные компьютеры с широкими возможностями под любые задачи</div>
+					<div class ="main_box2" ><img src="/img/PerformanceX.png"></div>
+					<div class="main_tprice">от 4200 руб</div>
+				</div>
+				
+					<div class="main1_block" onclick="render('mono')">
+					<div class ="main_box" style="background-image:url('/img/stinger.png');"></div>
+					<div class="main_title">stinger aio</div>
+					<div class ="main_box2">Суперпроизводительный игровой моноблок 34" с изогнутой панелью</div>
+					<div class ="main_box2" ><img src="/img/StingerAIO.png"></div>
+					<div class="main_tprice">от 5300 руб</div>
+				</div>
+		</div>
+	</div>
+	`)
+	$("#content").append(block1);
+	let block2 =$(`
+	
+		<div class="main_chose">
+			<div class="main_chose1">игровое</div>
+			<div class="main_chose2">пространство</div>
+		</div>
+		<div class="main1">
+				<div class="main_space">
+					<div class ="main_box" style="background-image:url('/img/stol_pic-2.png');"></div>
+					<div class="main_title">Игровые столы</div>
+					<div class ="main_box3">YA:GO - это первые компьютерные столы с возможностью кастомизации. Они разработаны специально для длительного и комфортного пребывания за компьютером.</div>
+				</div>
+				<div class="main_space">
+					<div class ="main_box" style="background-image:url('/img/kreslo_pic-2.png');"></div>
+					<div class="main_title">Игровые кресла</div>
+					<div class ="main_box3">Каталог игровых кресел для профессиональных геймеров или людей, чья деятельность связана с длительной работой за компьютером. Все кресла имеют удобную эргономику, регулировку и большой выбор цветов.
+					</div>
+				</div>
+		</div>
+	
+	`)
+	$("#container").append(block2);
+	
+	
+	
+	
+}
 
 
 
@@ -380,8 +442,7 @@ function MONO(obj) {
 function About(obj){
 	var URLHash = window.location.hash;
 	var stateStr = URLHash.substr(1);
-	console.log(obj[stateStr][0].image)
-	
+	console.log("gg")
 	let Progaming_page = $(`
 		<div id="container">
 			<div class="page_description">	
