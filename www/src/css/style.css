@@ -42,7 +42,7 @@ body {
 	font-family: Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
 	line-height: 1.5;
 	color: white;
-	background:#212121;
+	background:#000;
 	background-size: cover;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -482,7 +482,7 @@ overflow: hidden;
 
 
 
-/*new*/
+
 .about{
 	width:100%;
 	float:left;
@@ -507,7 +507,7 @@ overflow: hidden;
 
 
 
-
+/*new*/
 /*end_new*/
 
 
@@ -519,15 +519,56 @@ overflow: hidden;
 
 /*end content*/
 
+/*start footer*/
+#footer{
+	width:100%;
+	float:left;	
+	padding-top:100px;
+}
+.footer_box{
+	width:1600px;
+	max-width: 100%;
+	background:#4b4b4b;
+	min-height:400px;	
+	margin:auto;
+}
+/*end footer*/
 
 
 
 
 
-
-
-
-
+/*About*/
+.page_description_box_about{
+	width:50%;
+	height:500px;
+	background-repeat: no-repeat;
+    background-position: center center;
+	float:left;
+}
+.about_product{
+	margin-left: 0;
+    padding-left: 0;
+	
+}
+.about_product_li{
+	list-style-type: none;
+font-family: BitterRegular;
+	font-size:20px;
+	line-height:36px;
+}
+.page_description_box_about2{
+	width:50%;
+	height:500px;
+	float:left;
+	font-size:20px;
+	padding-top:10px;
+	font-family: BitterRegular;
+}
+.about_title{
+	font-family: BitterRegular;
+}
+/*end About*/
 
 
 
