@@ -216,6 +216,7 @@ function Progaming(obj) {
 		let div = $(`<div class="features_box"><img src="${obj.features[i].image}"></div>`);
 		$(".features").append(div);
 	}
+	/* <div class="activ_marker"></div> */
 	for (let x = 0; x < obj.goods.length; x++) {
 		let blockProducts = $(`<div class="product"><div class="product_name">${obj.goods[x].name}</div><div class="product_price">${obj.goods[x].price}</div></div>`);
 		$(".name_of_product").append(blockProducts);
