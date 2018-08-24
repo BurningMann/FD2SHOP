@@ -3,122 +3,454 @@
 	"AMDRyzenR3+GTX10502GB":[{
 	"image":"./img/Progaming/300CM-min.png"
 	},{
-	"CPU":""
+	"CPU":"4-x ядерный AMD Ryzen 3 1200 3.1GHz"
 	},{
-	"colling":""
+	"Сolling":"Воздушная система охлаждения"
 	},{
-	"RAM":""
+	"RAM":"8GB (2x4Gb) DDR4 2400Mhz"
 	},{
-	"videoCard":""
+	"videoCard":"NVIDIA GeForce GTX 1050 2GB"
 	},{
-	"SDD":""
+	"SDD":"нет"
 	},{
-	"HDD":""
+	"HDD":"Жесткий диск 1TB"
 	},{
-	"windows":""
+	"Корпус":"Cooler Master MasterBox MB600L"
 	},{
-	"guarantee":""
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 12 месяцев"
 	}],
 	
 	"Inteli3+GTX1050Ti4GB":[{
 		"image":"./img/Progaming/ML600_2.png"
 		},{
-	"CPU":""
+	"CPU":"4-ядерный Intel Core i3-8100 3.60 GHz"
 	},{
-	"colling":""
+	"Сolling":"Воздушная система охлаждения"
 	},{
-	"RAM":""
+	"RAM":"8GB (2x4Gb) DDR4 2400Mhz"
 	},{
-	"videoCard":""
+	"videoCard":"NVIDIA GeForce GTX 1050 Ti 4GB"
 	},{
-	"SDD":""
+	"SDD":"SSD 120GB "
 	},{
-	"HDD":""
+	"HDD":"Жесткий диск 1TB"
 	},{
-	"windows":""
+	"Корпус":"Cooler Master MasterBox MB600L"
 	},{
-	"guarantee":""
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 12 месяцев"
 	}],
-	
 	
 	"Inteli3+GTX10603gb":[{
 		"image":"./img/Progaming/CM_DR.png"
 		},{
-	"CPU":""
+	"CPU":"4-ядерный Intel Core i3-8100 3.60 GHz"
 	},{
-	"colling":""
+	"Сolling":"Воздушная система охлаждения"
 	},{
-	"RAM":""
+	"RAM":" 8GB (2x4Gb) DDR4 2400Mhz"
 	},{
-	"videoCard":""
+	"videoCard":"NVIDIA GeForce GTX 1060 3GB"
 	},{
-	"SDD":""
+	"SDD":"SSD 120GB "
 	},{
-	"HDD":""
+	"HDD":"Жесткий диск 1TB"
 	},{
-	"windows":""
+	"Корпус":"Cooler Master MasterBox MB600L"
 	},{
-	"guarantee":""
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 12 месяцев"
 	}],
 	
 	"AMDRyzenR5+GTX10603gb":[{
 		"image":"./img/Progaming/RGB_LITE_5.png"
 		},{
-	"CPU":""
+	"CPU":"6-ядерный AMD Ryzen 5 1600 3.2GHz"
 	},{
-	"colling":""
+	"Сolling":"Воздушная система охлаждения"
 	},{
-	"RAM":""
+	"RAM":" 16GB (2x8Gb) DDR4 2400Mhz "
 	},{
-	"videoCard":""
+	"videoCard":"NVIDIA GeForce GTX 1060 3GB"
 	},{
-	"SDD":""
+	"SDD":"SSD 120GB "
 	},{
-	"HDD":""
+	"HDD":"Жесткий диск 1TB"
 	},{
-	"windows":""
+	"Корпус":"Cooler Master MasterBox Lite 5"
 	},{
-	"guarantee":""
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 12 месяцев"
 	}],
 	
 	"Inteli5+GTX10606gb":[{
 		"image":"./img/Progaming/Q300_P.png"
 		},{
-	"CPU":""
+	"CPU":"6-ядерный Intel Core i5-8400 2.80 GHz"
 	},{
-	"colling":""
+	"Сolling":"Воздушная система охлаждения"
 	},{
-	"RAM":""
+	"RAM":"16GB (2x8Gb) DDR4 2400Mhz "
 	},{
-	"videoCard":""
+	"videoCard":"NVIDIA GeForce GTX 1060 6GB"
 	},{
-	"SDD":""
+	"SDD":"SSD 120GB "
 	},{
-	"HDD":""
+	"HDD":"Жесткий диск 1TB"
 	},{
-	"windows":""
+	"Корпус":"Cooler Master MasterBox Q300P"
 	},{
-	"guarantee":""
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 12 месяцев"
 	}],
-	
 	
 	"Inteli7+GTX10708gb":[{
 		"image":"./img/Progaming/CMPRORGB-min.png"
 		},{
-	"CPU":""
+	"CPU":"6-ядерный Intel Core i7-8700 3.20 GHz"
 	},{
-	"colling":""
+	"Сolling":"Воздушная система охлаждения"
 	},{
-	"RAM":""
+	"RAM":"16GB (2x8Gb) DDR4 2400Mhz"
 	},{
-	"videoCard":""
+	"videoCard":"NVIDIA GeForce GTX 1070 8GB"
 	},{
-	"SDD":""
+	"SDD":"SSD 240GB"
 	},{
-	"HDD":""
+	"HDD":"Жесткий диск 1TB"
 	},{
-	"windows":""
+	"Корпус":"Cooler Master MasterBox Lite 5"
 	},{
-	"guarantee":""
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 12 месяцев"
+	}],
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	"Inteli5K+GTX10606GB":[{
+		"image":"./img/Perfomance/nzxt340-min.png"
+	},{
+	"CPU":"6-ядерный Intel Core i5-8600K 3.60 GHz"
+	},{
+	"Сolling":"Воздушная система охлаждения"
+	},{
+	"RAM":"16GB (2x8Gb) DDR4 2800Mhz "
+	},{
+	"videoCard":"NVIDIA GeForce GTX 1060 6GB"
+	},{
+	"SDD":"SSD 240GB"
+	},{
+	"HDD":"Жесткий диск 1TB"
+	},{
+	"Корпус":"NZXT S340"
+	},{
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 36 месяцев"
+	}],
+	"Inteli5K+GTX10708GB":[{
+		"image":"./img/Perfomance/460x-min.png"
+	},{
+	"CPU":"6-ядерный Intel Core i5-8600K 3.60 GHz"
+	},{
+	"Сolling":"Воздушная система охлаждения"
+	},{
+	"RAM":"16GB (2x8Gb) DDR4 2800Mhz "
+	},{
+	"videoCard":"NVIDIA GeForce GTX 1070 8GB"
+	},{
+	"SDD":"SSD 240GB"
+	},{
+	"HDD":"Жесткий диск 2TB"
+	},{
+	"Корпус":"Cooler Master MasterBox Lite 5"
+	},{
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 36 месяцев"
+	}],
+	
+	"AMDRyzenR7+GTX10708gb":[{
+		"image":"./img/Perfomance/CM500-min.png"
+	},{
+	"CPU":"8-ядерный AMD Ryzen 7 1700 3.0GHz"
+	},{
+	"Сolling":"Воздушная система охлаждения"
+	},{
+	"RAM":"16GB (2x8Gb) DDR4 2800Mhz "
+	},{
+	"videoCard":"NVIDIA GeForce GTX 1070 8GB"
+	},{
+	"SDD":"SSD 240GB"
+	},{
+	"HDD":"Жесткий диск 1TB"
+	},{
+	"Корпус":"Cooler Master MasterBox Lite 5"
+	},{
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 36 месяцев"
+	}],
+	
+	"AMDRyzenR7+GTX10808gb":[{
+		"image":"./img/Perfomance/NZXT700-min.png"
+	},{
+	"CPU":" 8-ядерный AMD Ryzen 7 1800X 3.6GHz"
+	},{
+	"Сolling":"Воздушная система охлаждения"
+	},{
+	"RAM":"16GB (2x8Gb) DDR4 2800Mhz "
+	},{
+	"videoCard":"NVIDIA GeForce GTX 1080 8GB"
+	},{
+	"SDD":"SSD 240GB"
+	},{
+	"HDD":"Жесткий диск 1TB"
+	},{
+	"Корпус":"Cooler Master MasterBox Lite 5"
+	},{
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 36 месяцев"
+	}],
+	
+	"Inteli7K+GTX10808gb":[{
+		"image":"./img/Perfomance/570x-min.png"
+	},{
+	"CPU":"6-ядерный Intel Core i7-8700 3.20 GHz"
+	},{
+	"Сolling":"Воздушная система охлаждения"
+	},{
+	"RAM":"16GB (2x8Gb) DDR4 2400Mhz"
+	},{
+	"videoCard":"NVIDIA GeForce GTX 1070 8GB"
+	},{
+	"SDD":"SSD 240GB"
+	},{
+	"HDD":"Жесткий диск 1TB"
+	},{
+	"Корпус":"Cooler Master MasterBox Lite 5"
+	},{
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 12 месяцев"
+	}],
+	
+	
+	"Inteli7K+GTX1080Ti11gb":[{
+		"image":"./img/Perfomance/maker5t-min.png"
+	},{
+	"CPU":"6-ядерный Intel Core i7-8700 3.20 GHz"
+	},{
+	"Сolling":"Воздушная система охлаждения"
+	},{
+	"RAM":"16GB (2x8Gb) DDR4 2400Mhz"
+	},{
+	"videoCard":"NVIDIA GeForce GTX 1070 8GB"
+	},{
+	"SDD":"SSD 240GB"
+	},{
+	"HDD":"Жесткий диск 1TB"
+	},{
+	"Корпус":"Cooler Master MasterBox Lite 5"
+	},{
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 12 месяцев"
+	}],
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		"Inteli7-X+10808GB":[{
+		"image":"./img/PerfomanceX/DigitalRazor_Corsair_600C-min.png"
+	},{
+	"CPU":"6-ядерный Intel Core i7-8700 3.20 GHz"
+	},{
+	"Сolling":"Воздушная система охлаждения"
+	},{
+	"RAM":"16GB (2x8Gb) DDR4 2400Mhz"
+	},{
+	"videoCard":"NVIDIA GeForce GTX 1070 8GB"
+	},{
+	"SDD":"SSD 240GB"
+	},{
+	"HDD":"Жесткий диск 1TB"
+	},{
+	"Корпус":"Cooler Master MasterBox Lite 5"
+	},{
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 12 месяцев"
+	}],
+	"Inteli9-X+1080Ti11GB":[{
+		"image":"./img/PerfomanceX/DigitalRazor_NZXT_700i-min.png"
+	},{
+	"CPU":"6-ядерный Intel Core i7-8700 3.20 GHz"
+	},{
+	"Сolling":"Воздушная система охлаждения"
+	},{
+	"RAM":"16GB (2x8Gb) DDR4 2400Mhz"
+	},{
+	"videoCard":"NVIDIA GeForce GTX 1070 8GB"
+	},{
+	"SDD":"SSD 240GB"
+	},{
+	"HDD":"Жесткий диск 1TB"
+	},{
+	"Корпус":"Cooler Master MasterBox Lite 5"
+	},{
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 12 месяцев"
+	}],
+	"AMDTR1920X+1080Ti11GB":[{
+		"image":"./img/PerfomanceX/DigitalRazor_Corsair_570X-min1.png"
+	},{
+	"CPU":"6-ядерный Intel Core i7-8700 3.20 GHz"
+	},{
+	"Сolling":"Воздушная система охлаждения"
+	},{
+	"RAM":"16GB (2x8Gb) DDR4 2400Mhz"
+	},{
+	"videoCard":"NVIDIA GeForce GTX 1070 8GB"
+	},{
+	"SDD":"SSD 240GB"
+	},{
+	"HDD":"Жесткий диск 1TB"
+	},{
+	"Корпус":"Cooler Master MasterBox Lite 5"
+	},{
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 12 месяцев"
+	}],
+	
+	"Inteli9-X+1080Ti11GB":[{
+		"image":"./img/PerfomanceX/DigitalRazor_CoolerMaker_5T-min.png"
+	},{
+	"CPU":"6-ядерный Intel Core i7-8700 3.20 GHz"
+	},{
+	"Сolling":"Воздушная система охлаждения"
+	},{
+	"RAM":"16GB (2x8Gb) DDR4 2400Mhz"
+	},{
+	"videoCard":"NVIDIA GeForce GTX 1070 8GB"
+	},{
+	"SDD":"SSD 240GB"
+	},{
+	"HDD":"Жесткий диск 1TB"
+	},{
+	"Корпус":"Cooler Master MasterBox Lite 5"
+	},{
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 12 месяцев"
+	}],
+	
+	"AMDTR1950X+2X1080Ti11GB":[{
+		"image":"./img/PerfomanceX/DigitalRazor_Cougar-min.png"
+	},{
+	"CPU":"6-ядерный Intel Core i7-8700 3.20 GHz"
+	},{
+	"Сolling":"Воздушная система охлаждения"
+	},{
+	"RAM":"16GB (2x8Gb) DDR4 2400Mhz"
+	},{
+	"videoCard":"NVIDIA GeForce GTX 1070 8GB"
+	},{
+	"SDD":"SSD 240GB"
+	},{
+	"HDD":"Жесткий диск 1TB"
+	},{
+	"Корпус":"Cooler Master MasterBox Lite 5"
+	},{
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 12 месяцев"
+	}],
+	
+	
+	"Inteli9-X+2X1080Ti11GB":[{
+		"image":"./img/PerfomanceX/DigitalRazor_Cosmos_C700P-min.png"
+	},{
+	"CPU":"6-ядерный Intel Core i7-8700 3.20 GHz"
+	},{
+	"Сolling":"Воздушная система охлаждения"
+	},{
+	"RAM":"16GB (2x8Gb) DDR4 2400Mhz"
+	},{
+	"videoCard":"NVIDIA GeForce GTX 1070 8GB"
+	},{
+	"SDD":"SSD 240GB"
+	},{
+	"HDD":"Жесткий диск 1TB"
+	},{
+	"Корпус":"Cooler Master MasterBox Lite 5"
+	},{
+	"Windows":"Microsoft Windows 10 Trial"
+	},{
+	"Гарантия":"Базовая гарантия 12 месяцев"
 	}]
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
