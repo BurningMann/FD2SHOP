@@ -17,8 +17,8 @@ $(document).ready(function() {
 						<div class="div_navigation1">
 							<h1 class="h2_navigation1">Игровое пространство</h1>	
 							<ul class="ul_navigation1">
-							<li class="li_navigation1">ИГРОВЫЕ СТОЛЫ</li>
-							<li class="li_navigation1">ИГРОВЫЕ КРЕСЛА</li>
+							<li class="li_navigation1" onclick="render('tables')">ИГРОВЫЕ СТОЛЫ</li>
+							<li class="li_navigation1" onclick="render('chairs')">ИГРОВЫЕ КРЕСЛА</li>
 							</ul>
 						</div>   
 					</div>`);
@@ -36,7 +36,11 @@ $(".li_navigation1").click(function(){
 		}, 250);
 	};	
 	});
-
+$(".product_count").text(sessionStorage.length);
+$(".basket").click(function(){
+	return render('basket');
+	
+});
 });
 	
 $('.nav-toggle').click(function() {
@@ -59,6 +63,23 @@ function switchToStateFromURLHash() {
 	if (stateStr == "") {
 		$("#container").remove()
 		Main()
+	}
+	if(stateStr == "basket") {
+		$("#container").remove()
+		$.get("/js/jsons/goods.json", function(obj) {
+			basket(obj)
+		}).fail(function(err) {
+			console.log(`${err.status}-${err.statusText}`);
+		});
+		
+	}
+	if(stateStr == "tables") {
+		$("#container").remove()
+		$.get("/js/jsons/" + stateStr + ".json", function(obj) {
+			Tables(obj)
+		}).fail(function(err) {
+			console.log(`${err.status}-${err.statusText}`);
+		});	
 	}
 	if(stateStr == "poweredByAMD") {
 		$("#container").remove()
@@ -87,7 +108,7 @@ function switchToStateFromURLHash() {
 			console.log(`${err.status}-${err.statusText}`);
 		});
 	}
-	if(stateStr!="progaming" && stateStr!="perfomance" &&stateStr!="perfomanceX"&&stateStr != "mono"&&stateStr != "poweredByAMD" &&stateStr != ""){
+	if(stateStr!="progaming" && stateStr!="perfomance" &&stateStr!="perfomanceX"&&stateStr != "mono"&&stateStr != "poweredByAMD" &&stateStr != "tables"&&stateStr != "basket" &&stateStr != ""){
 		$("#container").remove()
 		$.get("/js/jsons/goods.json", function(obj) {
 			About(obj)
@@ -149,12 +170,12 @@ function Main(){
 			<div class="main_chose2">пространство</div>
 		</div>
 		<div class="main1">
-				<div class="main_space">
+				<div class="main_space" onclick="render('tables')">
 					<div class ="main_box" style="background-image:url('/img/stol_pic-2.png');"></div>
 					<div class="main_title">Игровые столы</div>
 					<div class ="main_box3">YA:GO - это первые компьютерные столы с возможностью кастомизации. Они разработаны специально для длительного и комфортного пребывания за компьютером.</div>
 				</div>
-				<div class="main_space">
+				<div class="main_space" onclick="render('chairs')">
 					<div class ="main_box" style="background-image:url('/img/kreslo_pic-2.png');"></div>
 					<div class="main_title">Игровые кресла</div>
 					<div class ="main_box3">Каталог игровых кресел для профессиональных геймеров или людей, чья деятельность связана с длительной работой за компьютером. Все кресла имеют удобную эргономику, регулировку и большой выбор цветов.
@@ -216,7 +237,6 @@ function Progaming(obj) {
 		let div = $(`<div class="features_box"><img src="${obj.features[i].image}"></div>`);
 		$(".features").append(div);
 	}
-	/* <div class="activ_marker"></div> */
 	for (let x = 0; x < obj.goods.length; x++) {
 		let blockProducts = $(`<div class="product"><div class="product_name">${obj.goods[x].name}</div><div class="product_price">${obj.goods[x].price}</div></div>`);
 		$(".name_of_product").append(blockProducts);
@@ -422,28 +442,16 @@ function MONO(obj) {
 		</div>
 		`)
 	$("#content").append(Progaming_page);
-/* 	for (let i = 0; i < obj.features.length; i++) {
-		let div = $(`<div class="features_box"><img src="${obj.features[i].image}"><p>${obj.features[i].description}</p></div>`);
-		$(".features").append(div);
-	}
-	for (let i = 0; i < obj.gallery.length; i++) {
-		let div = $(`
-				<div class="gallery-box col-md-3 col-sm-6 col-xs-12">
-					<img src="${obj.gallery[i].image}"> <a class="image-selection" data-fancybox="gallery" href="${obj.gallery[i].image}">
-					<div><img src="./img/search-512.png" style="width:100%;"></div></a>
-				</div>
-		`);
-		$(".gallery-selector").append(div);
-	} */
-	
-	
 }
 
 
 function About(obj){
+	function InBasket(e){
+		console.log(e)
+		
+	}
 	var URLHash = window.location.hash;
 	var stateStr = URLHash.substr(1);
-	console.log("gg")
 	let Progaming_page = $(`
 		<div id="container">
 			<div class="page_description">	
@@ -463,6 +471,8 @@ function About(obj){
 				
 				</div>
 			</div>
+			<div class="in_basket">Добавить в корзину</div>
+			<div class="in_basket2">достать из корзины</div>
 		</div>
 		`)
 	$("#content").append(Progaming_page);
@@ -479,101 +489,109 @@ function About(obj){
 			let li = $(`<li class="about_product_li">- ${accessories[i]}: ${phase1[accessories[i]]}</li>`);
 			$(".about_product").append(li);
 		}
-	}
-/*
-	for (let i = 0; i < obj.features.length; i++) {
-		let div = $(`<div class="features_box"><img src="${obj.features[i].image}"></div>`);
-		$(".features").append(div);
-	}
-	for (let x = 0; x < obj.goods.length; x++) {
-		let blockProducts = $(`<div class="product"><div class="product_name">${obj.goods[x].name}</div><div class="product_price">${obj.goods[x].price}</div></div>`);
-		$(".name_of_product").append(blockProducts);
-	}
-	let kkk = $(".product")[0];
-	$(kkk).addClass("active_product")
-	let texts = $(".active_product")[0].childNodes[0]
-	fill(obj[$(texts).text()])
-	for (let i = 0; i < $(".product").length; i++) {
-		$(".product")[i].onclick = function() {
-			if (!this.classList.contains('active_product')) {
-				$(".product_image").children()[0].remove()
-				let deleted_characteristics = $(".product_characteristics").children().length
-				for (let y = 0; y < deleted_characteristics; y++) {
-					$(".product_characteristics").children()[0].remove()
-				}
-				let deleted = $(".active_product")[0]
-				$(deleted).removeClass("active_product")
-				$(this).addClass('active_product');
-				let texts = $(".active_product")[0].childNodes[0]
-				return fill(obj[$(texts).text()])
-			};
-		}
-	}
-	$(".about_box").click(function(){
-		let texts = $(".active_product")[0].childNodes[0]
-		 texts=$(texts).text().replace(/\s+/g, '');
-		console.log(texts)
-		return render(texts)
-
+	}	
+	$(".in_basket").click(function InBasket(){
+		let product=$(".about_title")[0]
+		product=$(product).text()
+		 sessionStorage[`product${sessionStorage.length}`] = product; 
+		 $(".product_count").text(sessionStorage.length);
+		
 	})
+	$(".in_basket2").click(function InBasket2(e){
+		console.log(sessionStorage)
+	})
+}
 
-	function fill(productName) {
-		let accessories = []
-		for (let i = 0; i < productName.length; i++) {
-			let keys = Object.keys(productName[i]);
-			for (let x = 0; x < keys.length; x++) {
-				accessories.push(keys[x])
-			}
-		}
-		for (let i = 0; i < productName.length; i++) {
-			let keys = Object.keys(productName[i])
-			for (let x = 0; x < keys.length; x++) {
-				if (keys[x] == "image" && Object.keys(productName[i][keys[x]][0]).length != 0) {
-					let imageProduct = $(`<img src="${productName[i].image}">`);
-					$(".product_image").append(imageProduct);
+
+
+function Tables(obj){
+	let keys = Object.keys(obj);
+		let Progaming_page = $(`<div id="container"></div>`)
+	$("#content").append(Progaming_page);
+	
+		for(let i=0;i<keys.length;i++){
+				let box =$(`
+				<div class="tables_box">
+					<div class="table_title">
+						<h2>Игровой стол</h2>
+						<h5>${keys[i]}</h5>
+					</div>
+					<div class="table_price table_price${i}"></div>
+					<div class="table_image table_image${i}"></div>
+					<div class="table_description"><ul class="table_description_ul table_description_ul${i}"><ul></div>
+				</div>
+			`)
+			$("#container").append(box);	
+				let accessories = [],
+					n=obj[keys[i]],
+					one = $(`.table_price${i}`)[0],	
+					two = $(`.table_image${i}`)[0],
+					three = $(`.table_description_ul${i}`)[0];
+					
+				for (let i = 0; i < n.length; i++) {
+						let keysTwo = Object.keys(n[i]);
+						for (let x = 0; x < keysTwo.length; x++) {
+							accessories.push(keysTwo[x])
+						}
+					}
+				for (let i = 0; i < accessories.length; i++) {
+					if(accessories[i]=="image"){
+						let img=$(`<img src="${n[i][accessories[i]]}">`)
+						$(two).append(img)
+					}
+					if(accessories[i]=="price"){
+						let p=n[i][accessories[i]];
+						console.log(p)
+						$(one).text(p)
+					}
+					if(accessories[i]!="image"&&accessories[i]!="price"){
+						let li = $(`<li class="table_description_li">${accessories[i]}: ${n[i][accessories[i]]}</li>`);
+						$(three).append(li);
+					}
 				}
-				if (accessories.indexOf(keys[x]) != -1 && Object.keys(productName[i][keys[x]][0]).length != 0 && keys[x] != "image") {
-					let div = $(`<div class="product_characteristics_box">
-								<h2>${productName[i][keys[x]][0].number}</h2>
-								<p>${productName[i][keys[x]][0].name1}</br>${productName[i][keys[x]][0].name2}</p>
-							</div>`)
-					$(".product_characteristics").append(div);
-				}
-			}
+		
 		}
-	} */
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 }
 
 
 
+function basket(obj) {
+	let basket_page = $(`<div id="container">
+			<div class="page_title">
+				ОФОРМЛЕНИЕ ЗАКАЗА
+			</div>
+			<div class="basket_place">
+				
+			</div>
+		</div>`)
+	$("#content").append(basket_page);
+	let accessories = []
+	let keys = Object.keys(sessionStorage);
+	accessories.push(keys)
+	for (let i = 0; i < sessionStorage.length; i++) {
+		let tovar = $(`<div class="tovari tovari${i}"><h3 class="basket_place_tovar">${sessionStorage[accessories[0][i]]}</h3><ul class="basket_place_ul basket_place_ul${i}"></ul></div>`)
+		$(".basket_place").append(tovar)
+		let one = $(`.basket_place_ul${i}`)[0];
+		let accessories2 = []
+		for (let x = 0; x < obj[sessionStorage[accessories[0][i]]].length; x++) {
+			let keys2 = Object.keys(obj[sessionStorage[accessories[0][i]]][x]);
+			for (let y = 0; y < keys2.length; y++) {
+				accessories2.push(keys2[y])
+			}
+		}
+		for (let u = 0; u < accessories2.length; u++) {
+			let phase1 = obj[sessionStorage[accessories[0][i]]][u]
+			if (accessories2 != "image") {
+				let li = $(`<li class="about_product_li">- ${accessories2[u]}: ${phase1[accessories2[u]]}</li>`);
+				$(one).append(li);
+			}
+		}
+	}
+}
 
-
-
-
+		
+	
 
 
 
