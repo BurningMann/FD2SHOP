@@ -1,70 +1,39 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-   <link rel="shortcut icon" href="img/razermetro.png">
-   <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/animate.css" />
-<!-- 	<link href="css/preloader.css" rel="stylesheet" type="text/css"> -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-  <title>Example</title>	
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="img/razermetro.png">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/animate.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<title>Computer</title>	
 </head>
 <body>
-	<!-- <div id="preloader">
-		<div id="loader"></div>
-	</div> -->
 	<div class="utility">
-	
-	
-	
-	
-	
-	<div class="basket">
-		<div class="product_count"></div>
-	</div>
+		<div class="basket">
+			<div class="product_count"></div>
+		</div>
 		<div class="nav-toggle">
 			<span></span>
 		</div>
 	</div>
 	<header id="menu"></header>
-	<content id="content">
-	
-	
-	</content>
+	<content id="content"></content>
 	<footer id="footer"></footer>
-
- 
- 
-  	
-	
-	
-	
-<!-- 	<script>
-	 $(window).on('load', function () {
-	   $preloader = $('#preloader'),
-	     $loader = $preloader.find('#loader');
-	   $loader.fadeOut();
-	   $preloader.delay(350).fadeOut('slow');
-	 });
-	</script> -->
 	<script src="js/jquery-3.2.1.min.js"></script> 
 	<script src="js/jquery.fancybox.min.js">
 	</script> 
 	<script src="js/script.js"></script> 
 	<script>
-	
 	function render(hashs){
-
 		switchToState( { pagename:hashs } );
 	}
 	function switchToState(newState) {
 		var stateStr=newState.pagename;
 		location.hash=stateStr;
 	}
-	</script>
-	
+	</script>	
 </body>
 </html>

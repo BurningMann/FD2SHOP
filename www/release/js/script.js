@@ -10,6 +10,7 @@ $(document).ready(function() {
 							<li class="li_navigation1" onclick="render('perfomanceX')">PERFORMANCE X</li>
 							<li class="li_navigation1" onclick="render('mono')">ИГРОВОЙ МОНОБЛОК</li>
 							<li class="li_navigation1" onclick="render('poweredByAMD')">POWERED BY AMD</li>
+							<li class="li_navigation1" onclick="render('')">Главная</li>
 							</ul>
 						</div>   
 					</div>
@@ -23,7 +24,26 @@ $(document).ready(function() {
 						</div>   
 					</div>`);
 $("#menu").append(div_menu);
-let div_footer= $(`<div class="footer_box"></div>`)
+let div_footer= $(`<div class="footer_box">
+	<div class="footer_boxs">	
+							<h3 class="h2_navigation1">Игровые компьютеры</h3>	
+							<ul class="ul_navigation1">
+							<li class="li_navigation1"  onclick="render('progaming')" >PROGAMING СЕРИЯ</li>
+							<li class="li_navigation1" onclick="render('perfomance')">PERFORMANCE СЕРИЯ</li>
+							<li class="li_navigation1" onclick="render('perfomanceX')">PERFORMANCE X</li>
+							<li class="li_navigation1" onclick="render('mono')">ИГРОВОЙ МОНОБЛОК</li>
+							<li class="li_navigation1" onclick="render('poweredByAMD')">POWERED BY AMD</li>
+							<li class="li_navigation1" onclick="render('')">Главная</li>
+							</ul>
+	</div>
+<div class="footer_boxs">	
+							<h3 class="h2_navigation1">Игровое пространство</h3>	
+							<ul class="ul_navigation1">
+							<li class="li_navigation1" onclick="render('tables')">ИГРОВЫЕ СТОЛЫ</li>
+							<li class="li_navigation1" onclick="render('chairs')">ИГРОВЫЕ КРЕСЛА</li>
+							</ul>
+	</div>
+</div>`)
 $("#footer").append(div_footer);
 $(".li_navigation1").click(function(){
 		console.log("gg")
@@ -57,50 +77,45 @@ $('.nav-toggle').click(function() {
 window.onhashchange = switchToStateFromURLHash;
 
 function switchToStateFromURLHash() {
-
 	var URLHash = window.location.hash;
 	var stateStr = URLHash.substr(1);
 	if (stateStr == "") {
 		$("#container").remove()
 		Main()
 	}
-	if(stateStr == "basket") {
+	if (stateStr == "basket") {
 		$("#container").remove()
 		$.get("/js/jsons/goods.json", function(obj) {
 			basket(obj)
 		}).fail(function(err) {
 			console.log(`${err.status}-${err.statusText}`);
 		});
-		
 	}
-	if(stateStr == "tables") {
+	if (stateStr == "tables") {
 		$("#container").remove()
 		$.get("/js/jsons/" + stateStr + ".json", function(obj) {
 			Tables(obj)
 		}).fail(function(err) {
 			console.log(`${err.status}-${err.statusText}`);
-		});	
+		});
 	}
-	if(stateStr == "poweredByAMD") {
+	if (stateStr == "poweredByAMD") {
 		$("#container").remove()
 		$.get("/js/jsons/" + stateStr + ".json", function(obj) {
 			ASUS(obj)
 		}).fail(function(err) {
 			console.log(`${err.status}-${err.statusText}`);
 		});
-		
 	}
-	if(stateStr == "mono") {
-		
+	if (stateStr == "mono") {
 		$.get("/js/jsons/" + stateStr + ".json", function(obj) {
 			$("#container").remove()
 			MONO(obj)
 		}).fail(function(err) {
 			console.log(`${err.status}-${err.statusText}`);
 		});
-		
 	}
-	if (stateStr=="progaming" || stateStr=="perfomance" ||stateStr=="perfomanceX") {
+	if (stateStr == "progaming" || stateStr == "perfomance" || stateStr == "perfomanceX") {
 		$("#container").remove()
 		$.get("/js/jsons/" + stateStr + ".json", function(obj) {
 			Progaming(obj)
@@ -108,20 +123,18 @@ function switchToStateFromURLHash() {
 			console.log(`${err.status}-${err.statusText}`);
 		});
 	}
-	if(stateStr!="progaming" && stateStr!="perfomance" &&stateStr!="perfomanceX"&&stateStr != "mono"&&stateStr != "poweredByAMD" &&stateStr != "tables"&&stateStr != "basket" &&stateStr != ""){
+	if (stateStr != "progaming" && stateStr != "perfomance" && stateStr != "perfomanceX" && stateStr != "mono" && stateStr != "poweredByAMD" && stateStr != "tables" && stateStr != "basket" && stateStr != "") {
 		$("#container").remove()
 		$.get("/js/jsons/goods.json", function(obj) {
 			About(obj)
 		}).fail(function(err) {
 			console.log(`${err.status}-${err.statusText}`);
-		});		
+		});
 	}
 }
 
-
-
-function Main(){
-	let block1 =$(`
+function Main() {
+	let block1 = $(`
 	<div id="container">
 		<div class="main_chose">
 			<div class="main_chose1">выбери</div>
@@ -163,7 +176,7 @@ function Main(){
 	</div>
 	`)
 	$("#content").append(block1);
-	let block2 =$(`
+	let block2 = $(`
 	
 		<div class="main_chose">
 			<div class="main_chose1">игровое</div>
@@ -185,26 +198,7 @@ function Main(){
 	
 	`)
 	$("#container").append(block2);
-	
-	
-	
-	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 function Progaming(obj) {
 	let Progaming_page = $(`
@@ -231,8 +225,6 @@ function Progaming(obj) {
 		</div>
 		`)
 	$("#content").append(Progaming_page);
-
-
 	for (let i = 0; i < obj.features.length; i++) {
 		let div = $(`<div class="features_box"><img src="${obj.features[i].image}"></div>`);
 		$(".features").append(div);
@@ -261,12 +253,10 @@ function Progaming(obj) {
 			};
 		}
 	}
-	$(".about_box").click(function(){
+	$(".about_box").click(function() {
 		let texts = $(".active_product")[0].childNodes[0]
-		 texts=$(texts).text().replace(/\s+/g, '');
-		console.log(texts)
+		texts = $(texts).text().replace(/\s+/g, '');
 		return render(texts)
-
 	})
 
 	function fill(productName) {
@@ -296,16 +286,6 @@ function Progaming(obj) {
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
 function ASUS(obj) {
 	let Progaming_page = $(`
 		<div id="container">
@@ -327,6 +307,7 @@ function ASUS(obj) {
 				<div class="product_image"></div>
 				<div class="product_characteristics"></div>
 			</div>
+			<div class="about"><div class="about_box">Подробнее</div></div>
 		</div>
 		`)
 	$("#content").append(Progaming_page);
@@ -355,7 +336,11 @@ function ASUS(obj) {
 			};
 		}
 	}
-
+	$(".about_box").click(function() {
+		let texts = $(".active_product")[0].childNodes[0]
+		texts = $(texts).text().replace(/\s+/g, '');
+		return render(texts)
+	})
 	function fill(productName) {
 		let accessories = []
 		for (let i = 0; i < productName.length; i++) {
@@ -382,29 +367,6 @@ function ASUS(obj) {
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 function MONO(obj) {
 	let Progaming_page = $(`
@@ -444,12 +406,7 @@ function MONO(obj) {
 	$("#content").append(Progaming_page);
 }
 
-
-function About(obj){
-	function InBasket(e){
-		console.log(e)
-		
-	}
+function About(obj) {
 	var URLHash = window.location.hash;
 	var stateStr = URLHash.substr(1);
 	let Progaming_page = $(`
@@ -472,45 +429,37 @@ function About(obj){
 				</div>
 			</div>
 			<div class="in_basket">Добавить в корзину</div>
-			<div class="in_basket2">достать из корзины</div>
 		</div>
 		`)
 	$("#content").append(Progaming_page);
 	let accessories = []
 	for (let i = 0; i < obj[stateStr].length; i++) {
-			let keys = Object.keys(obj[stateStr][i]);
-			for (let x = 0; x < keys.length; x++) {
-				accessories.push(keys[x])
-			}
+		let keys = Object.keys(obj[stateStr][i]);
+		for (let x = 0; x < keys.length; x++) {
+			accessories.push(keys[x])
 		}
+	}
 	for (let i = 0; i < accessories.length; i++) {
-		if(accessories[i]!="image"){
+		if (accessories[i] != "image") {
 			let phase1 = obj[stateStr][i]
 			let li = $(`<li class="about_product_li">- ${accessories[i]}: ${phase1[accessories[i]]}</li>`);
 			$(".about_product").append(li);
 		}
-	}	
-	$(".in_basket").click(function InBasket(){
-		let product=$(".about_title")[0]
-		product=$(product).text()
-		 sessionStorage[`product${sessionStorage.length}`] = product; 
-		 $(".product_count").text(sessionStorage.length);
-		
-	})
-	$(".in_basket2").click(function InBasket2(e){
-		console.log(sessionStorage)
-	})
+	}
+	$(".in_basket").click(function InBasket() {
+		let product = $(".about_title")[0]
+		product = $(product).text()
+		sessionStorage[`product${sessionStorage.length}`] = product;
+		$(".product_count").text(sessionStorage.length);
+	});
 }
 
-
-
-function Tables(obj){
+function Tables(obj) {
 	let keys = Object.keys(obj);
-		let Progaming_page = $(`<div id="container"></div>`)
+	let Progaming_page = $(`<div id="container"></div>`)
 	$("#content").append(Progaming_page);
-	
-		for(let i=0;i<keys.length;i++){
-				let box =$(`
+	for (let i = 0; i < keys.length; i++) {
+		let box = $(`
 				<div class="tables_box">
 					<div class="table_title">
 						<h2>Игровой стол</h2>
@@ -521,40 +470,35 @@ function Tables(obj){
 					<div class="table_description"><ul class="table_description_ul table_description_ul${i}"><ul></div>
 				</div>
 			`)
-			$("#container").append(box);	
-				let accessories = [],
-					n=obj[keys[i]],
-					one = $(`.table_price${i}`)[0],	
-					two = $(`.table_image${i}`)[0],
-					three = $(`.table_description_ul${i}`)[0];
-					
-				for (let i = 0; i < n.length; i++) {
-						let keysTwo = Object.keys(n[i]);
-						for (let x = 0; x < keysTwo.length; x++) {
-							accessories.push(keysTwo[x])
-						}
-					}
-				for (let i = 0; i < accessories.length; i++) {
-					if(accessories[i]=="image"){
-						let img=$(`<img src="${n[i][accessories[i]]}">`)
-						$(two).append(img)
-					}
-					if(accessories[i]=="price"){
-						let p=n[i][accessories[i]];
-						console.log(p)
-						$(one).text(p)
-					}
-					if(accessories[i]!="image"&&accessories[i]!="price"){
-						let li = $(`<li class="table_description_li">${accessories[i]}: ${n[i][accessories[i]]}</li>`);
-						$(three).append(li);
-					}
-				}
-		
+		$("#container").append(box);
+		let accessories = [],
+			n = obj[keys[i]],
+			one = $(`.table_price${i}`)[0],
+			two = $(`.table_image${i}`)[0],
+			three = $(`.table_description_ul${i}`)[0];
+		for (let i = 0; i < n.length; i++) {
+			let keysTwo = Object.keys(n[i]);
+			for (let x = 0; x < keysTwo.length; x++) {
+				accessories.push(keysTwo[x])
+			}
 		}
-	
+		for (let i = 0; i < accessories.length; i++) {
+			if (accessories[i] == "image") {
+				let img = $(`<img src="${n[i][accessories[i]]}">`)
+				$(two).append(img)
+			}
+			if (accessories[i] == "price") {
+				let p = n[i][accessories[i]];
+				console.log(p)
+				$(one).text(p)
+			}
+			if (accessories[i] != "image" && accessories[i] != "price") {
+				let li = $(`<li class="table_description_li">${accessories[i]}: ${n[i][accessories[i]]}</li>`);
+				$(three).append(li);
+			}
+		}
+	}
 }
-
-
 
 function basket(obj) {
 	let basket_page = $(`<div id="container">
@@ -589,24 +533,3 @@ function basket(obj) {
 		}
 	}
 }
-
-		
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
